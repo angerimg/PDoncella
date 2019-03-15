@@ -11,6 +11,8 @@
 
 div{
     display: block;
+    background-color: red;
+
 }
  div#misionVisionValores{
      width: 100%;
