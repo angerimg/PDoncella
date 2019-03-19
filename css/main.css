@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+html, body{
+    width:100%;
+}
 
 .centrar{
     margin-left: auto;
@@ -13,6 +16,18 @@ div{
     display: block;
 
 
+}
+
+
+img#verdeGrande{
+    max-width: 100%;
+    width:100vw; 
+
+}
+
+div#divFotoGrande{
+
+  
 }
  div#misionVisionValores{
      width: 100%;
@@ -127,7 +142,7 @@ div#divFotoGrande{
 
 div#divHola{
     height: 900px;
-    background-color:#F4F1EF;
+    background-color:#ffffff;
 
 }
 
