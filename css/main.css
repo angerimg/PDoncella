@@ -5,7 +5,13 @@
 
 html, body{
     width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    
 }
+
+
 
 .centrar{
     margin-left: auto;
@@ -14,10 +20,8 @@ html, body{
 
 div{
     display: block;
-
-
 }
-
+/*====================================================================*/
 
 img#verdeGrande{
     max-width: 100%;
@@ -25,16 +29,18 @@ img#verdeGrande{
 
 }
 
-div#divFotoGrande{
 
-  
-}
  div#misionVisionValores{
      width: 100%;
  }
 
 p{
     text-align: center;
+    display: block;
+    margin-inline-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    scroll-margin-inline-start: 0px;
 }
 
 
@@ -53,16 +59,17 @@ h1#blanco{
 h1#verde{
     color:  #00ADBB;
 }
+
+
+
+
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 55px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 55px;
     margin-top: 0px;
-    
-
 }
 
 /*
@@ -74,6 +81,231 @@ ul{
 }*/
 
 
+
+
+div#nav{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F4F1EF;
+
+}
+
+ul{
+    list-style: none;
+}
+
+div#nav li {
+
+    display: inline-block;
+
+}
+
+div#nav li a{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-left: 34px;
+    margin-top: 21px;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+/*====================================================================*/
+
+div#divHola{
+    text-align: center;
+    display: block;
+    background-color:#ffffff;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+
+}
+/*====================================================================*/
+div#divServicios{
+    
+    background-color:#F4F1EF;
+    display: block;
+    text-align: center;
+}
+
+h2#Sverde{
+    color:#00ADBB;
+    height: 42px;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*====================================================================*/
+div#divServicios ul li{
+    margin-bottom: 10px;
+
+}
+
+div#divServicios #serviceCon{
+    display: flex;
+
+}
+div.service{
+
+    width: 175px;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    flex:1;
+}
+
+div#divServicios p{
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+
+
+/*====================================================================*/
+div#divClientes{
+ 
+   
+    background-color: #24BDC5;
+}
+
+
+div#divClientes img{
+    max-width: 100%;
+    width:100vw; 
+}
+
+/*====================================================================*/
+div#divProductos{
+    text-align: center;
+   
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+}
+
+div#divProductos #productosLimpieza{
+    width: 221px;
+    /* display: flex; */
+    margin-bottom: 20px;
+    margin-left: 70px;
+    padding-bottom: 15px;
+    flex-direction: column;
+  
+    
+}
+
+div#divProductos #productosLimpieza img, p,  button {
+
+    padding-bottom:  20px;
+    
+}
+
+div#divProductos #flexChild{
+    margin-bottom: 30px;
+    
+    flex-direction: column;
+   
+
+}
+
+div#divProductos #flexChild1{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+div#divProductos  #limpiezaVerde{
+    background-color: #82BC00;
+    margin-bottom: 20px;
+
+}
+
+div#divProductos  #limpiezaAzul{
+background-color: #00AFA9;
+}
+div#divProductos  #limpiezaRoja{
+background-color: #F05C5C;
+}
+div#divProductos .botonLimpieza{
+border-radius: 3px;
+color: white;
+font-weight: 300;
+font-size: 20px;
+width: 240px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+text-transform: uppercase;
+}
+div#divProductos #imagenCarrito{
+    display: inline;
+    text-align: center;
+}
+
+
+
+/*====================================================================*/
+
+div#divNosotros{
+  
+    background-color: #F4F1EF;
+    text-align: center;
+}
+
+div#divNosotros #contNosotros #descripcion{
+    display: block;
+    text-align: justify;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+h2.h2Verde{
+    color:  #00ADBB;
+    margin-bottom: 25px;
+}
+
+div#divNosotros #contNosotros{
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+
+
+button#btnMVV{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: auto;
+    text-decoration: none;
+    background-color: #F05C5C;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+
 div#cardMision{
     background-color: #00ADBB;
 }
@@ -83,7 +315,6 @@ div#cardVision{
 }
 div#cardValores{
     background-color: #FFB718;
-
 }
 
 div.card{
@@ -105,79 +336,65 @@ div.card{
       height: 140px;
       padding: 20px;
       margin-bottom: 16px;
-  
-}
-
-div#nav{
-    position: fixed;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F4F1EF;
-
-}
-
-div#nav li {
-
-    display: inline-block;
-
-}
-
-div#nav li a{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    display: block;
-    margin-left: 34px;
-    margin-top: 21px;
-    text-decoration: none;
-    text-transform: uppercase;    
-}
-
-div#divFotoGrande{
-    height: 700px;
-    background-color: #24BDC5;
-}
-
-div#divHola{
-    height: 900px;
-    background-color:#ffffff;
-
-}
-
-div#divServicios{
-    height: 900px;
-    background-color:#F4F1EF;
-}
-div#divClientes{
- 
-    height: 900px;
-    background-color: #24BDC5;
-}
-div#divProductos{
-    height: 900px;
-    background-color: rgb(255, 255, 255);
 }
 
 
-div#divNosotros{
-    height: 900px;
-    background-color: #F4F1EF;
-}
+/*====================================================================*/
 div#divNuestraHistoria{
-    height: 900px;
+   
     background-color:#00ADBB;;
 }
+
+/*====================================================================*/
+input[name=txtNombre]{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+
+input[name=txtEmail]{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    
+}
+
+input[name=txtCompa]{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+
+input[name=txtTelefono]{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+
+
+
+
+
+/*====================================================================*/
 div#divBlog{
-    height: 900px;
+ 
     background-color: #F4F1EF;
 }
+
+
+/*====================================================================*/
 div#divContactos{
-    height: 900px;
+ 
     background-color: #24BDC5;
+    
 }
+
+/*====================================================================*/
 div#divTienda{
-    height: 900px;
+
     background-color: #F4F1EF;
 }

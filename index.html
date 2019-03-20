@@ -3,6 +3,7 @@
 
 <head>
     <link rel="StyleSheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 
@@ -36,8 +37,8 @@
         <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
         <div id="divHola">
             <h1 id="verde">Hola</h1>
-            <p>Somos Doncella. Una compañía que ofrece soluciones integradas de limpieza y outsourcing a </p>
-            <p>y empresas, posicionada como la marca líder en República Dominicana.</p>
+            <p class="PHola">Somos Doncella. Una compañía que ofrece soluciones integradas de limpieza y outsourcing a
+                residencias y empresas, posicionada como la marca líder en República Dominicana.</p>
             <p id="verde"> Sonríe, el resto lo hacemos nosotros.</p>
             <img src="images/doncella-logo-small.png" id="logoHola">
 
@@ -47,58 +48,62 @@
         <div id="divServicios" class="centrar">
             <h1 id="verde">SERVICIOS</h1>
             <a id="servicios"></a>
-            <div id="s-casa" class="service">
 
-                <img src="images/services-home.png">
+            <div id="serviceCon">
+                <div id="s-casa" class="service">
 
-                <h2>servicios residenciales</h2>
-                <ul>
-                    <li>Limpieza Regular</li>
-                    <li>Limpieza Profunda</li>
-                    <li>Lavado y planchado</li>
-                    <li>Limpieza</li>
-                    <li>Post-Construccion</li>
-                    <li>Productos Limpieza</li>
-                </ul>
-            </div>
+                    <img src="images/services-home.png">
 
-            <div id="s-especial" class="service">
-                <img src="images/services-specialized.png">
-                <h2>Servicios Especializados</h2>
-                <ul>
-                    <li>Fumigacion</li>
-                    <li>Limpieza de cisterna</li>
-                    <li>Jardineria</li>
-                    <li>Plomeria</li>
-                    <li>Lavado de Alfombras</li>
-                    <li>Lavado de Muebles</li>
-                    <li>Lavado y cristalizado de pisos</li>
+                    <h2 id="Sverde">servicios residenciales</h2>
+                    <ul>
+                        <li>Limpieza Regular</li>
+                        <li>Limpieza Profunda</li>
+                        <li>Lavado y planchado</li>
+                        <li>Limpieza</li>
+                        <li>Post-Construccion</li>
+                        <li>Productos Limpieza</li>
+                    </ul>
+                </div>
 
-                </ul>
-            </div>
+                <div id="s-especial" class="service">
+                    <img src="images/services-specialized.png">
+                    <h2 id="Sverde">Servicios Especializados</h2>
+                    <ul>
+                        <li>Fumigacion</li>
+                        <li>Limpieza de cisterna</li>
+                        <li>Jardineria</li>
+                        <li>Plomeria</li>
+                        <li>Lavado de Alfombras</li>
+                        <li>Lavado de Muebles</li>
+                        <li>Lavado y cristalizado de pisos</li>
 
-            <div id="s-negocio" class="service">
-                <img src="images/services-business.png">
-                <h2>Servicios de Negocios</h2>
-                <ul>
-                    <li>Consejeria</li>
-                    <li>Limpieza Oficinas</li>
-                    <li>Limpieza Cristales Exteriores</li>
-                    <li>Sumistro Productos, Equipos y Material Gastable</li>
-                </ul>
-            </div>
+                    </ul>
+                </div>
 
-            <div id="s-out" class="service">
-                <img src="images/services-outsourcing.png">
-                <h2>Servicios de Outsourcing</h2>
-                <ul>
-                    <li>Recepcionistas</li>
-                    <li>Choferes</li>
-                    <li>Mensajeros</li>
-                    <li>Operarios de fabrica</li>
-                    <li>Personal call center</li>
-                    <li>Personal Administrativo</li>
-                </ul>
+                <div id="s-negocio" class="service">
+                    <img src="images/services-business.png">
+                    <h2 id="Sverde">Servicios de Negocios</h2>
+                    <ul>
+                        <li>Consejeria</li>
+                        <li>Limpieza Oficinas</li>
+                        <li>Limpieza Cristales Exteriores</li>
+                        <li>Sumistro Productos, Equipos y Material Gastable</li>
+                    </ul>
+                </div>
+
+                <div id="s-out" class="service">
+                    <img src="images/services-outsourcing.png">
+                    <h2 id="Sverde">Servicios de Outsourcing</h2>
+                    <ul>
+                        <li>Recepcionistas</li>
+                        <li>Choferes</li>
+                        <li>Mensajeros</li>
+                        <li>Operarios de fabrica</li>
+                        <li>Personal call center</li>
+                        <li>Personal Administrativo</li>
+                    </ul>
+                </div>
+
             </div>
 
             <p>Todos nuestros servicios estan disponibles a nivel nacional en Republica Dominicana.</p>
@@ -109,7 +114,7 @@
         <div id="divClientes" class="centrar">
             <h1 id="blanco">CLIENTES</h1>
             <p id="blanco">Algunos de los clientes que han confiado en nosotros:</p>
-
+            <img src="images/clients grande.png">
             <a id="clientes"></a>
 
         </div>
@@ -117,35 +122,51 @@
         <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
         <div id="divProductos" class="centrar">
             <a id="productos"></a>
-            <h1 id="verde">PRODUCTOS</h1>
-            <p>Tenemos 3 Categorías de Productos by Doncella. Entre ellas se encuentran las</p>
-            <p> marca Green Choice para la limpieza verde, Dream Clean para la limpieza</p>
-            <p> y Glee Clean para el cuidado personal.</p>
 
-            <!--ooooooooooooooooooooooooooooooooooo-->
-            <button type="button">LIMPIEZA VERDE</button>
-            <div>"Los productos de limpieza "Green Choice" son biodegradables,
-                son libres de toxinas, y tienen un bajo contenido de compuestos
-                organicos volatiles(COV)."</div>
-            <img src="images/products-green_choice.png">
+            <div id="flexChild">
+                <h1 id="verde">PRODUCTOS</h1>
+                <p>Tenemos 3 Categorías de Productos by Doncella. Entre ellas se encuentran las
+                    marca Green Choice para la limpieza verde, Dream Clean para la limpieza
+                    y Glee Clean para el cuidado personal.</p>
+            </div>
 
+
+
+            <div id="flexChild1" >
+                <!--ooooooooooooooooooooooooooooooooooo-->
+                <div id="productosLimpieza">
+                    <button id="limpiezaVerde" class="botonLimpieza" type="button">LIMPIEZA VERDE</button>
+                    <img src="images/logos-green_choice.png">
+                    <p>Los productos de limpieza "Green Choice" son biodegradables,
+                        son libres de toxinas, y tienen un bajo contenido de compuestos
+                        organicos volatiles(COV).</p>
+                    <img src="images/products-green_choice.png">
+
+                </div>
+                <!--oooooooooooooooooooooooooooooooooo-->
+                <div id="productosLimpieza">
+                    <button id="limpiezaAzul" class="botonLimpieza" type="button">LIMPIEZA TRADICIONAL</button>
+                    <img src="images/logos-dream_clean.png">
+                    <p>La linea de productos "Dream Clean" incluye una amplia gama de productos
+                        de limpieza tradicionales para todas las necesidades de limpieza de
+                        la casa y de negocios. </p>
+                    <img src="images/products-dream_clean.png">
+                </div>
+                
+                <!--oooooooooooooooooooooooooooooooooo-->
+                <div id="productosLimpieza">
+                    <button id="limpiezaRoja" class="botonLimpieza" type="button">CUIDADO PERSONAL</button>
+                    <img src="images/logos-glee_clean.png">
+                    <p>Glee Clean""es una linea de productos naturales
+                        para el cuidado personal con una presentacion jovial.
+                        Productos hechos a mano con ingredientes naturales y organicos.</p>
+                    <img src="images/products-glee_clean.png">
+                </div>
+            </div>
             <!--oooooooooooooooooooooooooooooooooo-->
-            <button type="button">LIMPIEZA TRADICIONAL</button>
-            <div>"La linea de productos "Dream Clean" incluye una amplia gama de productos
-                de limpieza tradicionales para todas las necesidades de limpieza de
-                la casa y de negocios." </div>
-            <img src="images/products-dream_clean.png">
-            
-            <!--oooooooooooooooooooooooooooooooooo-->
-            <button type="button">CUIDADO PERSONAL</button>
-            <div>""Glee Clean""es una linea de productos naturales
-                para el cuidado personal con una presentacion jovial.
-                Productos hechos a mano con ingredientes naturales y organicos."</div>
-            <img src="images/products-glee_clean.png">
-
-            <!--oooooooooooooooooooooooooooooooooo-->
-            <img src="images/products-buy.png">
-
+            <div id="flexChild">
+                <img id="imagenCarrito" src="images/products-buy.png">
+            </div>
         </div>
 
 
@@ -154,47 +175,53 @@
             <h1 id="verde">NOSOTROS</h1>
             <a id="nosotros"></a>
 
-
-            <div class="icon">
-                <img src="images/icons-solutions.png">
+            <div id="contNosotros">
+                <div class="icon">
+                    <img src="images/icons-solutions.png">
+                </div>
+                <div id="descripcion">
+                    <h2>SOLUCIONES</h2>
+                    <p>
+                        Doncella es una compañía que ofrece
+                        soluciones integradas a residencias y empresas con una
+                        constante innovacion en su oferta.
+                    </p>
+                </div>
             </div>
-            <div class="titulo">SOLUCIONES</div>
-            <div class="descripcion">
-                "Doncella es una compañía que ofrece
-                soluciones integradas a residencias y empresas con una
-                constante innovacion en su oferta."
-            </div>
-
             <!--oooooooooooooooooooooooooooooooooo-->
 
-
-            <div class="icon">
-                <img src="images/icons-human.png">
+            <div id="contNosotros">
+                <div class="icon">
+                    <img src="images/icons-human.png">
+                </div>
+                <div id="descripcion">
+                    <h2>HUMANO</h2>
+                    <p>
+                        Doncella ofrece servicios con valor humano.
+                        Personal con formacion y con un enfoque de
+                        transparencia y honestidad que garantiza la satisfaccion
+                        del cliente.
+                    </p>
+                </div>
             </div>
-            <div class="titulo">HUMANO</div>
-            <div class="descripcion">
-                "Doncella ofrece servicios con valor humano.
-                Personal con formacion y con un enfoque de
-                transparencia y honestidad que garantiza la satisfaccion
-                del cliente."
-            </div>
-
             <!--oooooooooooooooooooooooooooooooooo-->
 
-
-            <div class="icon">
-                <img src="images/icons-green.png">
+            <div id="contNosotros">
+                <div class="icon">
+                    <img src="images/icons-green.png">
+                </div>
+                <div id="descripcion">
+                    <h2>VERDE</h2>
+                    <p>
+                        Doncella esta motivada por la ecologia y la vida saludable,
+                        ofreciendo siempre soluciones con un alto grado de conciencia
+                        ambiental.
+                    </p>
+                </div>
             </div>
-            <div class="titulo">VERDE</div>
-            <div class="descripcion">
-                "Doncella esta motivada por la ecologia y la vida saludable,
-                ofreciendo siempre soluciones con un alto grado de conciencia
-                ambiental."
-            </div>
-
             <!--oooooooooooooooooooooooooooooooooo-->
 
-            <h2>MISION, VISION y VALORES</h2>
+            <h2 class="h2Verde">MISION, VISION y VALORES</h2>
 
             <div id="misionVisionValores" class="centrar" style="margin: 0 auto; width:max-content">
                 <div id="cardMision" class="card">
@@ -222,7 +249,7 @@
 
                 <!--oooooooooooooooooooooooooooooooooo-->
 
-                <button type="button">QUIERES TRABAJAR CON NOSOTROS?</button>
+                <button type="button" id="btnMVV">QUIERES TRABAJAR CON NOSOTROS?</button>
 
             </div>
         </div>
@@ -340,33 +367,37 @@
         <h1 id="blanco">CONTACTOS</h1>
         <a id="contactos"></a>
 
-        <div class="entradasForm">
+        <form class="entradasForm">
             <input type="text" name="txtNombre" placeholder="Nombre y apellido">
-            <img src="images/contact-name.png">
-        </div>
-        <div class="entradasForm">
-            <input type="text" name="txtemail" placeholder="E-Mail">
-            <img src="images/contact-email.png">
-        </div>
-        <div class="entradasForm">
-            <input type="text" name="txtcompania" placeholder="Compañía">
-            <img src="images/contact-company.png">
-        </div>
-        <div class="entradasForm">
+            <!--<img src="images/contact-name.png">-->
+
+
+            <input type="text" name="txtEmail" placeholder="E-Mail">
+            <!---<img src="images/contact-email.png">-->
+
+            <input type="text" name="txtCompa" placeholder="Compañía">
+            <!--<img src="images/contact-company.png">-->
+
             <input type="text" name="txtTelefono" placeholder="Telefono">
-            <img src="images/contact-phone.png">
-        </div>
-        <div class="divSelectorContactos">
+            <!--<img src="images/contact-phone.png">-->
+
             <select id="selectorComo" name="nombreLista">
                 <option disabled selected>Como te enteraste de nosotros?</option>
                 <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Paginas Amarillas">Paginas Amarillas</option>
+                <option value="Prensa">Prensa</option>
+                <option value="Revista">Revista</option>
+                <option value="Un amigo o familiar">Un amigo o familiar</option>
+                <option value="Twitter">Twitter</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Otro">Otro</option>
             </select>
-        </div>
-        <div class="mensajeContacto">
-            <textarea id="txtMensaje" name="nameMensaje" placeholder="Mensaje">
-            </textarea>
+
+            <textarea id="txtMensaje" name="nameMensaje" placeholder="Mensaje"></textarea>
             <img src="images/contact-message.png">
-        </div>
+        </form>
 
 
         <button type="button">ENVIAR</button>
