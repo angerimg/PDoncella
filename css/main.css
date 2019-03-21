@@ -44,7 +44,6 @@ p{
     text-align: center;
     display: block;
     margin-inline-start: 1em;
-    margin-block-end: 1em;
     margin-inline-end: 0px;
     scroll-margin-inline-start: 0px;
 }
@@ -450,11 +449,14 @@ div#divBlog #blogCards{
 }
 /*====================================================================*/
 div#divContactos{
+
     background-color: #24BDC5;
     DISPLAY: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 div#divContactos .entradasForm, #botonForm, #redesSociales{
     flex: 1;
@@ -472,7 +474,11 @@ div#divContactos #redesSociales a{
     margin: 45px;
  }
  div#divContactos #redesSociales a img{
- width: 58px!important;}
+ width: 58px!important;
+ padding: 10px;
+}
+
+
 div#divContactos h1{
     padding-bottom: 3px;
 }
@@ -492,17 +498,23 @@ div#divContactos .entradasForm #divFlexForm{
     display: flex;
 }
 div#divContactos .entradasForm #divFlexFormSelector{
-    background-color: white;
+      background-color: white;
     border-radius: 4px;
     width: 93%;
     height: 65px;
     margin: 9px;
-    display: flex;
 }
 
-div#divContactos .entradasForm #divFlexFormSelector #selectorComo{
-  width: 100%
+div#divContactos .entradasForm  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
   
+}
+
+div#divContactos .entradasForm #selectorComo{
+ width: 100%;
+
 }
 div#divContactos .entradasForm #divFlexFormMensaje{
     background-color: white;
