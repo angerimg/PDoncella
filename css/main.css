@@ -3,7 +3,13 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 html, body{
+   
     width:100%;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -68,8 +74,8 @@ h1{
     font-size: 55px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 55px;
-    margin-top: 0px;
+    padding: 85px;
+  
 }
 
 /*
@@ -187,17 +193,23 @@ div#divClientes img{
 
 /*====================================================================*/
 div#divProductos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-   
     background-color: rgb(255, 255, 255);
-    display: flexbox;
+   
+}
+
+div#divProductos #p_descripcionProductos{
+  
+    margin: 10px;
+    max-width: 600px;
 }
 
 div#divProductos #productosLimpieza{
     width: 221px;
-    /* display: flex; */
-    margin-bottom: 20px;
-    margin-left: 70px;
+    margin: 45px;
     padding-bottom: 15px;
     flex-direction: column;
   
@@ -262,7 +274,14 @@ div#divNosotros{
   
     background-color: #F4F1EF;
     text-align: center;
+    padding: 35px;
 }
+
+div#divNosotros #contenedorNosotros{
+  
+    padding:80px;
+}
+
 
 div#divNosotros #contNosotros #descripcion{
     display: block;
@@ -271,9 +290,19 @@ div#divNosotros #contNosotros #descripcion{
     margin-bottom: 30px;
 }
 
+div#divNosotros #contNosotros #descripcion h2{
+  color:  #00ADBB;
+  font-weight: bold;
+}
+
+div#divNosotros #contNosotros #descripcion p {
+    text-align: left;
+    margin-inline-start: 0%;
+  }
+
 h2.h2Verde{
     color:  #00ADBB;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 div#divNosotros #contNosotros{
@@ -284,7 +313,9 @@ div#divNosotros #contNosotros{
 
 
 
-
+div#divNosotros #contenedorMVV{
+   
+}
 button#btnMVV{
     margin: 0 auto;
     display: block;
@@ -298,7 +329,6 @@ button#btnMVV{
     font-weight: 300;
     font-size: 26px;
     margin-top: 30px;
-    margin-bottom: 80px;
     padding-bottom: 12px;
     padding-left: 50px;
     padding-right: 50px;
@@ -320,9 +350,7 @@ div#cardValores{
 div.card{
 
       display: inline-block;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: center;
-      text-transform: uppercase;
       box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
       font-weight: 300;
       font-size: 16px;
@@ -338,42 +366,51 @@ div.card{
       margin-bottom: 16px;
 }
 
+div.card h2{
+font-weight: bold;
+margin: 5px;
+}
 
 /*====================================================================*/
 div#divNuestraHistoria{
    
-    background-color:#00ADBB;;
+    background-color:#24BDC5;
 }
+
+div#divNuestraHistoria #contenedorHistoria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+   
+  
+}
+
+div#divNuestraHistoria #contenedorHistoria .historia-div{
+   text-align: center;
+  flex: 1;
+  
+  margin:45px;
+}
+
+div#divNuestraHistoria #contenedorHistoria .historia-div img{
+  
+   margin-bottom:30px;
+ }
+ div#divNuestraHistoria #contenedorHistoria .historia-div .icon{
+   
+    width: 240px;
+  }
+
+
+ div#divNuestraHistoria #contenedorHistoria .historia-div .texto-historia{
+width: 240px;
+font-size: 16px;
+font-weight: 300;
+color: white;
+  }
+
 
 /*====================================================================*/
-input[name=txtNombre]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-}
-
-input[name=txtEmail]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-    
-}
-
-input[name=txtCompa]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-}
-
-input[name=txtTelefono]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-}
 
 
 
@@ -385,16 +422,155 @@ div#divBlog{
     background-color: #F4F1EF;
 }
 
+div#divBlog h1{
+  padding: 50px;
+}
 
+div#divBlog #contenedorCardBlog{
+ 
+   padding: 60px;
+}
+
+
+div#divBlog #blogCards{
+    display: block;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    background-color:#00ADBB; 
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: top;
+    overflow: hidden;
+    height: 140px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
 /*====================================================================*/
 div#divContactos{
- 
     background-color: #24BDC5;
-    
+    DISPLAY: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
+div#divContactos .entradasForm, #botonForm, #redesSociales{
+    flex: 1;
+}
+
+
+div#divContactos #redesSociales{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 50px;
+}
+div#divContactos #redesSociales a{
+    text-align: center;
+    flex: 1;
+    margin: 45px;
+ }
+ div#divContactos #redesSociales a img{
+ width: 58px!important;}
+div#divContactos h1{
+    padding-bottom: 3px;
+}
+div#divContactos .entradasForm{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+div#divContactos .entradasForm #divFlexForm{
+    background-color: white;
+    border-radius: 4px;
+    width: 45%;
+    height: 65px;
+    margin: 10px;
+    display: flex;
+}
+div#divContactos .entradasForm #divFlexFormSelector{
+    background-color: white;
+    border-radius: 4px;
+    width: 93%;
+    height: 65px;
+    margin: 9px;
+    display: flex;
+}
+
+div#divContactos .entradasForm #divFlexFormSelector #selectorComo{
+  width: 100%
+  
+}
+div#divContactos .entradasForm #divFlexFormMensaje{
+    background-color: white;
+    border-radius: 4px;
+    width: 93%;
+    margin: 9px;
+    height: 240px;
+    display: flex;
+}
+
+div#divContactos #botonForm{
+    background-color: #F05C5C;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 17px;
+    padding-left: 48px;
+    padding-right: 50px;
+    padding-top: 1px;
+    text-transform: uppercase;
+}
+
+
+
+div#divContactos .entradasForm #divFlexFormMensaje #txtMensaje{
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-right: 1%;
+    position: relative;
+}
+
+div#divContactos .entradasForm #divFlexFormMensaje img{
+    margin: 9px;
+    margin-top: 8px;
+    margin-bottom: 190px;
+    margin-left: 26px;
+}
+div#divContactos .entradasForm #divFlexForm img{
+    margin: 15px;
+    margin-top: 16px;
+}
+
+input[type=text]{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+
+
 
 /*====================================================================*/
 div#divTienda{
 
     background-color: #F4F1EF;
 }
+
+div#divTienda img{
+    max-width: 100%;
+    width:100vw; 
+}
+
