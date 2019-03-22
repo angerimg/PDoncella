@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="StyleSheet" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -13,12 +14,13 @@
 
         <div id="nav" class="centrar" style="width:100%">
             <ul style="width: max-content; margin: 0 auto;">
+                <li> <img src="images/doncella-wink.gif"></li>
                 <li> <a href="#servicios">Servicios</a></li>
                 <li> <a href="#clientes">Clientes</a></li>
                 <li> <a href="#productos">Productos</a></li>
                 <li> <a href="#nosotros">Nosotros</a></li>
-                <li> <a href="#contactos">Contactos</a></li>
                 <li> <a href="#blog">Blog</a></li>
+                <li> <a href="#contactos">Contactos</a></li>
                 <li> <a href="#tienda">Tienda</a></li>
 
 
@@ -115,7 +117,14 @@
             <a id="clientes"></a>
             <h1 id="blanco">CLIENTES</h1>
             <p id="blanco">Algunos de los clientes que han confiado en nosotros:</p>
-            <img src="images/clients grande.png">
+
+
+            <picture>
+                    <source media="(max-width: 550px)" srcset="images/clients-mobile.png" style="padding: 1; width: 320px;">
+                    <img src="images/clients grande.png"  style="max-width:100%; width:100vw; ">
+            </picture>
+          <!--  <img id="clientesGrande" src="images/clients grande.png">
+            <img id="clientesSmall" src="images/clients-mobile.png">-->
 
 
         </div>
@@ -138,31 +147,31 @@
                 <!--ooooooooooooooooooooooooooooooooooo-->
                 <div id="productosLimpieza">
                     <button id="limpiezaVerde" class="botonLimpieza" type="button">LIMPIEZA VERDE</button>
-                    <img src="images/logos-green_choice.png">
-                    <p>Los productos de limpieza "Green Choice" son biodegradables,
+                    <img id="imgArriba" src="images/logos-green_choice.png">
+                    <p id="pDentro">Los productos de limpieza "Green Choice" son biodegradables,
                         son libres de toxinas, y tienen un bajo contenido de compuestos
                         organicos volatiles(COV).</p>
-                    <img src="images/products-green_choice.png">
+                    <img id="imgAbajo" src="images/products-green_choice.png">
 
                 </div>
                 <!--oooooooooooooooooooooooooooooooooo-->
                 <div id="productosLimpieza">
                     <button id="limpiezaAzul" class="botonLimpieza" type="button">LIMPIEZA TRADICIONAL</button>
-                    <img src="images/logos-dream_clean.png">
-                    <p>La linea de productos "Dream Clean" incluye una amplia gama de productos
+                    <img  id="imgArriba"  src="images/logos-dream_clean.png">
+                    <p id="pDentro">La linea de productos "Dream Clean" incluye una amplia gama de productos
                         de limpieza tradicionales para todas las necesidades de limpieza de
                         la casa y de negocios. </p>
-                    <img src="images/products-dream_clean.png">
+                    <img  id="imgAbajo" src="images/products-dream_clean.png">
                 </div>
                 
                 <!--oooooooooooooooooooooooooooooooooo-->
                 <div id="productosLimpieza">
                     <button id="limpiezaRoja" class="botonLimpieza" type="button">CUIDADO PERSONAL</button>
-                    <img src="images/logos-glee_clean.png">
-                    <p>Glee Clean""es una linea de productos naturales
+                    <img  id="imgArriba"  src="images/logos-glee_clean.png">
+                    <p id="pDentro">Glee Clean""es una linea de productos naturales
                         para el cuidado personal con una presentacion jovial.
                         Productos hechos a mano con ingredientes naturales y organicos.</p>
-                    <img src="images/products-glee_clean.png">
+                    <img  id="imgAbajo" src="images/products-glee_clean.png">
                 </div>
             </div>
             <!--oooooooooooooooooooooooooooooooooo-->
@@ -227,29 +236,30 @@
 
             <div id="contenedorMVV">
                 <h2 class="h2Verde">MISION, VISION y VALORES</h2>
-
-                <div id="misionVisionValores" class="centrar" style="margin: 0 auto; width:max-content">
-                    <div id="cardMision" class="card">
-                        <h2>Mision</h2>
-                        <p>Ofrecer a residencias y empresas, servicios y
-                            productos de limpieza con conciencia ambiental.
-                        </p>
-                    </div>
-                    <div id="cardVision" class="card">
-                        <h2>Vision</h2>
-                        <p>Mantener el liderazgo en el mercado y evolucionar como
-                            empresa lider en servicios y productos de limpieza verde.
-                        </p>
-                    </div>
-                    <div id="cardValores" class="card">
-                        <h2>Valores</h2>
-                        <ul>
-                            <li>Satisfaccion al Cliente</li>
-                            <li>Creatividad</li>
-                            <li>Honestidad</li>
-                            <li>Liderazgo</li>
-                            <li>Trato Humano</li>
-                        </ul>
+                <div id="contParaFlexMVV">
+                    <div id="misionVisionValores" class="centrar" style="margin: 0 auto; width:max-content">
+                        <div id="cardMision" class="card">
+                            <h2>Mision</h2>
+                            <p>Ofrecer a residencias y empresas, servicios y
+                                productos de limpieza con conciencia ambiental.
+                            </p>
+                        </div>
+                        <div id="cardVision" class="card">
+                            <h2>Vision</h2>
+                            <p>Mantener el liderazgo en el mercado y evolucionar como
+                                empresa lider en servicios y productos de limpieza verde.
+                            </p>
+                        </div>
+                        <div id="cardValores" class="card">
+                            <h2>Valores</h2>
+                            <ul>
+                                <li>Satisfaccion al Cliente</li>
+                                <li>Creatividad</li>
+                                <li>Honestidad</li>
+                                <li>Liderazgo</li>
+                                <li>Trato Humano</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!--oooooooooooooooooooooooooooooooooo-->
@@ -358,6 +368,22 @@
 
     </div>
 
+
+
+
+    <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
+    <div id="divBlog" class="centrar">
+            <a id="blog"></a>
+            <h1 id="verde">BLOG</h1>
+    
+            <div id="contenedorCardBlog">
+                <div id="blogCards"></div>
+                <div id="blogCards"></div>
+                <div id="blogCards"></div>
+            </div>
+        </div>
+    
+
     <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
     <div id="divContactos" class="centrar">
         <a id="contactos"></a>
@@ -384,7 +410,7 @@
             </div>
             <div id="divFlexFormSelector">
                 <select id="selectorComo" name="nombreLista">
-                    <option disabled selected>Como te enteraste de nosotros?</option>
+                    <option disabled selected >Como te enteraste de nosotros?</option>
                     <option value="Google">Google</option>
                     <option value="Facebook">Facebook</option>
                     <option value="Instagram">Instagram</option>
@@ -405,7 +431,7 @@
 
 
         <div id="botonForm">
-            <button type="button">ENVIAR</button>
+            <button style="border:none;padding: 15px 50px;border-radius: 4px;color: white;background-color: #F05C5C;"  type="button">ENVIAR</button>
         </div>
 
         <div id="redesSociales">
@@ -430,18 +456,6 @@
     </div>
 
 
-
-    <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
-    <div id="divBlog" class="centrar">
-        <a id="blog"></a>
-        <h1 id="verde">BLOG</h1>
-
-        <div id="contenedorCardBlog">
-            <div id="blogCards"></div>
-            <div id="blogCards"></div>
-            <div id="blogCards"></div>
-        </div>
-    </div>
 
 
     <!--PPPPPPPPPPPPPPPPPPPPPP_DIV_PAGINA_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-->
