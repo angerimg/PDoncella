@@ -596,6 +596,11 @@ div#divTienda img{
     }
 
     button#btnMVV{
+
+        /*aqui un comentario para crear algo diferente para el push*/
+    }
+
+    button#btnMVV{
         width: 226px;
         padding-left: 20px;
         padding-right: 20px;
