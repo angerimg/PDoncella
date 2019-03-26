@@ -502,6 +502,7 @@ div#divContactos .entradasForm #divFlexFormMensaje{
     width: 93%;
     margin: 6px;
     height: 240px;
+    
     display: flex;
 }
 
