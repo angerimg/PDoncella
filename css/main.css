@@ -3,15 +3,17 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
+   
     width:100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
     font-weight: 300;
     
 }
-
-
 
 .centrar{
     margin-left: auto;
@@ -21,34 +23,28 @@ html, body{
 div{
     display: block;
 }
-/*====================================================================*/
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 img#verdeGrande{
     max-width: 100%;
     width:100vw; 
+    padding-top: 110px;
 
 }
-
-
- div#misionVisionValores{
-     width: 100%;
- }
 
 p{
     text-align: center;
     display: block;
     margin-inline-start: 1em;
-    margin-block-end: 1em;
     margin-inline-end: 0px;
     scroll-margin-inline-start: 0px;
 }
 
-
-
-
 p#verde{
     color:  #00ADBB;
 }
+
 p#blanco{
     color:white;
 }
@@ -56,32 +52,18 @@ p#blanco{
 h1#blanco{
     color: white;
 }
+
 h1#verde{
     color:  #00ADBB;
 }
-
-
-
 
 h1{
     font-weight: 300;
     font-size: 55px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 55px;
-    margin-top: 0px;
+    padding: 85px;  
 }
-
-/*
-ul{
-   
-    margin: 0;
-    padding: 0;
-    width: 60px;
-}*/
-
-
-
 
 div#nav{
     position: fixed;
@@ -89,22 +71,24 @@ div#nav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F4F1EF;
-
+    background-color: white;
 }
 
 ul{
     list-style: none;
 }
 
-div#nav li {
+div#nav ul{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
 
+div#nav li {  
     display: inline-block;
-
 }
 
 div#nav li a{
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     display: block;
@@ -113,7 +97,13 @@ div#nav li a{
     text-decoration: none;
     text-transform: uppercase;    
 }
-/*====================================================================*/
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#divHola h1{
+    color: #00ADBB;
+    font-size: 80px;
+}
 
 div#divHola{
     text-align: center;
@@ -123,14 +113,18 @@ div#divHola{
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 45px;
-
 }
-/*====================================================================*/
-div#divServicios{
-    
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#divServicios{    
     background-color:#F4F1EF;
     display: block;
     text-align: center;
+}
+
+div#divServicios h1{
+    margin-bottom:-160px;
 }
 
 h2#Sverde{
@@ -147,121 +141,128 @@ h2#Sverde{
     text-transform: uppercase;
 }
 
-/*====================================================================*/
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
 div#divServicios ul li{
     margin-bottom: 10px;
-
 }
 
 div#divServicios #serviceCon{
     display: flex;
-
+    flex-wrap: wrap;
+    padding: 180px;
 }
-div.service{
 
+div.service{
     width: 175px;
     display: inline-block;
     margin-left: 50px;
+    margin: 10px;
     text-align: center;
     flex:1;
 }
 
 div#divServicios p{
-    padding-top: 45px;
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-/*====================================================================*/
-div#divClientes{
- 
-   
+div#divClientes{   
     background-color: #24BDC5;
 }
 
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divClientes img{
-    max-width: 100%;
-    width:100vw; 
+div#divProductos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);   
 }
 
-/*====================================================================*/
-div#divProductos{
-    text-align: center;
-   
-    background-color: rgb(255, 255, 255);
-    display: flexbox;
+div#divProductos #p_descripcionProductos{
+    margin: 10px;
+    max-width: 600px;
 }
 
 div#divProductos #productosLimpieza{
     width: 221px;
-    /* display: flex; */
-    margin-bottom: 20px;
-    margin-left: 70px;
+    margin: 45px;
     padding-bottom: 15px;
-    flex-direction: column;
-  
-    
+    flex-direction: column;    
 }
 
 div#divProductos #productosLimpieza img, p,  button {
-
+    flex: 1;
     padding-bottom:  20px;
-    
 }
 
 div#divProductos #flexChild{
     margin-bottom: 30px;
-    
     flex-direction: column;
-   
-
 }
 
 div#divProductos #flexChild1{
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
-   
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div#divProductos  #limpiezaVerde{
     background-color: #82BC00;
     margin-bottom: 20px;
-
 }
 
 div#divProductos  #limpiezaAzul{
-background-color: #00AFA9;
+    background-color: #00AFA9;
+    margin-bottom: 20px;
 }
+
 div#divProductos  #limpiezaRoja{
-background-color: #F05C5C;
+    background-color: #F05C5C;
+    margin-bottom: 20px;
 }
+
 div#divProductos .botonLimpieza{
-border-radius: 3px;
-color: white;
-font-weight: 300;
-font-size: 20px;
-width: 240px;
-padding-top: 5px;
-padding-bottom: 5px;
-margin-top: 0px;
-margin-bottom: 0px;
-text-transform: uppercase;
+    border-radius: 3px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    width: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
 }
+
 div#divProductos #imagenCarrito{
     display: inline;
     text-align: center;
 }
 
+ /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
+ div#misionVisionValores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-/*====================================================================*/
-
-div#divNosotros{
-  
+ div#divNosotros{  
     background-color: #F4F1EF;
     text-align: center;
+    padding: 35px;
+}
+
+div#divNosotros #contenedorNosotros{
+    padding:80px;
 }
 
 div#divNosotros #contNosotros #descripcion{
@@ -271,9 +272,19 @@ div#divNosotros #contNosotros #descripcion{
     margin-bottom: 30px;
 }
 
+div#divNosotros #contNosotros #descripcion h2{
+  color:  #00ADBB;
+  font-weight: bold;
+}
+
+div#divNosotros #contNosotros #descripcion p {
+    text-align: left;
+    margin-inline-start: 0%;
+  }
+
 h2.h2Verde{
     color:  #00ADBB;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 div#divNosotros #contNosotros{
@@ -281,9 +292,6 @@ div#divNosotros #contNosotros{
     text-align: center;
     padding-left: 10px;
 }
-
-
-
 
 button#btnMVV{
     margin: 0 auto;
@@ -298,7 +306,6 @@ button#btnMVV{
     font-weight: 300;
     font-size: 26px;
     margin-top: 30px;
-    margin-bottom: 80px;
     padding-bottom: 12px;
     padding-left: 50px;
     padding-right: 50px;
@@ -318,83 +325,316 @@ div#cardValores{
 }
 
 div.card{
-
-      display: inline-block;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: center;
-      text-transform: uppercase;
-      box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-      font-weight: 300;
-      font-size: 16px;
-      color: white;
-      border-radius: 4px;
-      margin-left: 8px;
-      margin-right: 8px;
-      vertical-align: top;
-      overflow: hidden;
-      width: 226px;
-      height: 140px;
-      padding: 20px;
-      margin-bottom: 16px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: top;
+    width: 220px;
+    height: 141px;
+    /*Se elimino la linea de Flex:1, esto es para que el elemento crezaca en relacion a otros
+    como esto se le estaba aplicando a las 3 cartas pero se quiere un width fijo, esto hacia que el efecto de 
+    wrap no funcionara. En combinacion con quitarle a el div que lo contiene la propiedad de "width:max-contect"*/
+    padding: 20px;
+    margin-bottom: 16px;
 }
 
-
-/*====================================================================*/
-div#divNuestraHistoria{
-   
-    background-color:#00ADBB;;
+div.card h2{
+font-weight: bold;
+margin: 5px;
 }
 
-/*====================================================================*/
-input[name=txtNombre]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
+div#divNosotros #contenedorMVV #contParaFlexMVV{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    flex-direction: column;
 }
 
-input[name=txtEmail]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-    
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#divNuestraHistoria{   
+    background-color:#24BDC5;
 }
 
-input[name=txtCompa]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
+div#divNuestraHistoria #contenedorHistoria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 61px;
 }
 
-input[name=txtTelefono]{
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
+div#divNuestraHistoria #contenedorHistoria .historia-div{
+   text-align: center;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 85px;
+  flex-direction:column;
 }
 
+div#divNuestraHistoria #contenedorHistoria .historia-div img{
+   margin-bottom:30px;
+}
 
+ div#divNuestraHistoria #contenedorHistoria .historia-div .icon{  
+    width: 240px;
+}
 
+div#divNuestraHistoria #contenedorHistoria .historia-div .texto-historia{
+    width: 240px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
 
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-/*====================================================================*/
-div#divBlog{
- 
+div#divBlog{ 
     background-color: #F4F1EF;
 }
 
+div#divBlog h1{
+  padding: 50px;
+}
 
-/*====================================================================*/
+div#divBlog #contenedorCardBlog{
+   padding: 60px;
+}
+
+div#divBlog #blogCards{
+    display: block;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    background-color:#00ADBB; 
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: top;
+    overflow: hidden;
+    height: 140px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
 div#divContactos{
- 
     background-color: #24BDC5;
-    
+    DISPLAY: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
-/*====================================================================*/
-div#divTienda{
+div#divContactos .entradasForm, #botonForm, #redesSociales{
+    flex: 1;
+}
 
+div#divContactos #redesSociales{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 50px;
+}
+
+div#divContactos #redesSociales a{
+    text-align: center;
+    flex: 1;
+    margin: 20px;
+ }
+
+ div#divContactos #redesSociales a img{
+    width: 58px!important;
+    padding: 10px;
+}
+
+div#divContactos h1{
+    padding-bottom: 3px;
+}
+
+div#divContactos .entradasForm{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+div#divContactos .entradasForm #divFlexForm{
+    background-color: white;
+    border-radius: 4px;
+    width: 45%;
+    height: 65px;
+    margin: 10px;
+    display: flex;
+}
+
+div#divContactos .entradasForm #divFlexFormSelector{
+    background-color: white;
+    border-radius: 4px;
+    border:none;
+    width: 93%;
+    height: 65px;
+    margin: 6px;
+}
+
+div#divContactos .entradasForm  {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 70px;
+}
+
+div#divContactos .entradasForm #selectorComo{
+    width: 100%;
+    border: none;
+}
+
+div#divContactos .entradasForm #divFlexFormMensaje{
+    background-color: white;
+    border-radius: 4px;
+    width: 93%;
+    margin: 6px;
+    height: 240px;
+    display: flex;
+}
+
+div#divContactos #botonForm{
+    border-radius: 4px;
+    border: 0;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    flex: 1;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 17px;
+    border: none;
+    text-transform: uppercase;
+}
+
+div#divContactos .entradasForm #divFlexFormMensaje #txtMensaje{
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-right: 1%;
+    position: relative;
+    border: none;
+}
+
+div#divContactos .entradasForm #divFlexFormMensaje img{
+    margin: 9px;
+    margin-top: 8px;
+    margin-bottom: 190px;
+    margin-left: 26px;
+}
+
+div#divContactos .entradasForm #divFlexForm img{
+    margin: 15px;
+    margin-top: 16px;
+}
+
+input[type=text]{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    border: none;
+}
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+div#divTienda{
     background-color: #F4F1EF;
 }
+
+div#divTienda img{
+    max-width: 100%;
+    width:100vw; 
+}
+
+/*  -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys */
+
+@media screen and (max-width:890px){
+
+    div#nav li a{        
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    div#divProductos #flexChild1 {
+        flex-direction: column;
+    }
+
+    div#divProductos #productosLimpieza #imgArriba{
+        display: none;
+        padding-top: 10px;
+    }
+
+    div#divProductos{
+        width: 100%;
+    }
+
+    div#divProductos #productosLimpieza {
+        width: 100%;
+        margin: 0px; 
+
+    }
+
+    div#divProductos .botonLimpieza {
+        padding-bottom: 10px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    button#btnMVV{
+        width: 226px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    div#nav li a{
+        display: none;
+    }
+
+    div#divContactos .entradasForm #divFlexForm img {
+        display: none;
+    }
+
+    div#divContactos .entradasForm #divFlexFormMensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:545px){
+
+    div#divContactos .entradasForm #divFlexForm {
+        margin: 6px;
+    }
+
+    div#divContactos .entradasForm {
+        padding: 0px;
+    }
+
+    div#divContactos #redesSociales {
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    div#divNosotros #contNosotros {
+        display: block;
+    }
+}
+
