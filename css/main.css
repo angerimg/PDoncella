@@ -3,37 +3,37 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-html, body{
+html, 
+body {
    
-    width:100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     
 }
 
-.centrar{
+.centrar {
     margin-left: auto;
     margin-right: auto;
 }
 
-div{
+div {
     display: block;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-img#verdeGrande{
+img#verde-grande {
     max-width: 100%;
-    width:100vw; 
+    width: 100vw; 
     padding-top: 110px;
-
 }
 
-p{
+p {
     text-align: center;
     display: block;
     margin-inline-start: 1em;
@@ -41,23 +41,23 @@ p{
     scroll-margin-inline-start: 0px;
 }
 
-p#verde{
+p#verde {
     color:  #00ADBB;
 }
 
-p#blanco{
-    color:white;
-}
-
-h1#blanco{
+p#blanco {
     color: white;
 }
 
-h1#verde{
+h1#blanco {
+    color: white;
+}
+
+h1#verde {
     color:  #00ADBB;
 }
 
-h1{
+h1 {
     font-weight: 300;
     font-size: 55px;
     text-align: center;
@@ -65,7 +65,7 @@ h1{
     padding: 85px;  
 }
 
-div#nav{
+div#nav {
     position: fixed;
     top: 0;
     margin: 0;
@@ -74,11 +74,11 @@ div#nav{
     background-color: white;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-div#nav ul{
+div#nav ul {
     background-color: white;
     padding: 30px;
     text-align: center;
@@ -88,7 +88,7 @@ div#nav li {
     display: inline-block;
 }
 
-div#nav li a{
+div#nav li a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     display: block;
@@ -100,15 +100,15 @@ div#nav li a{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divHola h1{
+div#div-hola h1 {
     color: #00ADBB;
     font-size: 80px;
 }
 
-div#divHola{
+div#div-hola {
     text-align: center;
     display: block;
-    background-color:#ffffff;
+    background-color: #ffffff;
     padding-bottom: 45px;
     padding-left: 45px;
     padding-right: 45px;
@@ -117,18 +117,18 @@ div#divHola{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divServicios{    
-    background-color:#F4F1EF;
+div#div-servicios {    
+    background-color: #F4F1EF;
     display: block;
     text-align: center;
 }
 
-div#divServicios h1{
-    margin-bottom:-160px;
+div#div-servicios h1 {
+    margin-bottom: -160px;
 }
 
-h2#Sverde{
-    color:#00ADBB;
+h2#s-verde {
+    color: #00ADBB;
     height: 42px;
     font-weight: normal;
     font-size: 18px;
@@ -143,39 +143,39 @@ h2#Sverde{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divServicios ul li{
+div#div-servicios ul li {
     margin-bottom: 10px;
 }
 
-div#divServicios #serviceCon{
+div#div-servicios #service-con {
     display: flex;
     flex-wrap: wrap;
     padding: 180px;
 }
 
-div.service{
+div.service {
     width: 175px;
     display: inline-block;
     margin-left: 50px;
     margin: 10px;
     text-align: center;
-    flex:1;
+    flex: 1;
 }
 
-div#divServicios p{
+div#div-servicios p {
     text-transform: uppercase;
     padding-bottom: 15px;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divClientes{   
+div#div-clientes {   
     background-color: #24BDC5;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divProductos{
+div#div-productos {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -183,29 +183,32 @@ div#divProductos{
     background-color: rgb(255, 255, 255);   
 }
 
-div#divProductos #p_descripcionProductos{
+div#div-productos #p_descripcion-productos {
     margin: 10px;
     max-width: 600px;
 }
 
-div#divProductos #productosLimpieza{
+div#div-productos #productos-limpieza {
     width: 221px;
     margin: 45px;
     padding-bottom: 15px;
     flex-direction: column;    
 }
 
-div#divProductos #productosLimpieza img, p,  button {
+div#div-productos #productos-limpieza 
+img,
+ p,  
+ button {
     flex: 1;
     padding-bottom:  20px;
 }
 
-div#divProductos #flexChild{
+div#div-productos #flex-child {
     margin-bottom: 30px;
     flex-direction: column;
 }
 
-div#divProductos #flexChild1{
+div#div-productos #flex-child1 {
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -213,22 +216,22 @@ div#divProductos #flexChild1{
     flex-wrap: wrap;
 }
 
-div#divProductos  #limpiezaVerde{
+div#div-productos  #limpieza-verde {
     background-color: #82BC00;
     margin-bottom: 20px;
 }
 
-div#divProductos  #limpiezaAzul{
+div#div-productos  #limpieza-azul {
     background-color: #00AFA9;
     margin-bottom: 20px;
 }
 
-div#divProductos  #limpiezaRoja{
+div#div-productos  #limpieza-roja {
     background-color: #F05C5C;
     margin-bottom: 20px;
 }
 
-div#divProductos .botonLimpieza{
+div#div-productos .boton-limpieza {
     border-radius: 3px;
     color: white;
     font-weight: 300;
@@ -241,59 +244,59 @@ div#divProductos .botonLimpieza{
     text-transform: uppercase;
 }
 
-div#divProductos #imagenCarrito{
+div#div-productos #imagenCarrito {
     display: inline;
     text-align: center;
 }
 
  /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
- div#misionVisionValores{
+ div#misionVisionValores {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
- div#divNosotros{  
+ div#div-nosotros {  
     background-color: #F4F1EF;
     text-align: center;
     padding: 35px;
 }
 
-div#divNosotros #contenedorNosotros{
-    padding:80px;
+div#div-nosotros #contenedor-nosotros {
+    padding: 80px;
 }
 
-div#divNosotros #contNosotros #descripcion{
+div#div-nosotros #cont-nosotros #descripcion {
     display: block;
     text-align: justify;
     margin-left: 25px;
     margin-bottom: 30px;
 }
 
-div#divNosotros #contNosotros #descripcion h2{
+div#div-nosotros #cont-nosotros #descripcion h2 {
   color:  #00ADBB;
   font-weight: bold;
 }
 
-div#divNosotros #contNosotros #descripcion p {
+div#div-nosotros #cont-nosotros #descripcion p {
     text-align: left;
     margin-inline-start: 0%;
   }
 
-h2.h2Verde{
+h2.h2-verde {
     color:  #00ADBB;
     margin-bottom: 50px;
 }
 
-div#divNosotros #contNosotros{
+div#div-nosotros #cont-nosotros {
     display: flex;
     text-align: center;
     padding-left: 10px;
 }
 
-button#btnMVV{
+button#btn-mvv {
     margin: 0 auto;
     display: block;
     margin-bottom: auto;
@@ -313,18 +316,18 @@ button#btnMVV{
     text-transform: uppercase;
 }
 
-div#cardMision{
+div#card-mision {
     background-color: #00ADBB;
 }
 
-div#cardVision{
+div#card-vision {
     background-color: #82BC00;
 }
-div#cardValores{
+div#card-valores {
     background-color: #FFB718;
 }
 
-div.card{
+div.card {
     display: inline-block;
     text-align: center;
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
@@ -344,12 +347,12 @@ div.card{
     margin-bottom: 16px;
 }
 
-div.card h2{
+div.card h2 {
 font-weight: bold;
 margin: 5px;
 }
 
-div#divNosotros #contenedorMVV #contParaFlexMVV{
+div#div-nosotros #contenedor-mvv #cont-para-flex-mvv {
     display: flex;
     flex-wrap: wrap;  
     justify-content: center;
@@ -358,17 +361,17 @@ div#divNosotros #contenedorMVV #contParaFlexMVV{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divNuestraHistoria{   
+div#div-nuestra-historia {   
     background-color:#24BDC5;
 }
 
-div#divNuestraHistoria #contenedorHistoria{
+div#div-nuestra-historia #contenedor-historia {
     display: flex;
     flex-wrap: wrap;
     padding: 61px;
 }
 
-div#divNuestraHistoria #contenedorHistoria .historia-div{
+div#div-nuestra-historia #contenedor-historia .historia-div {
    text-align: center;
   flex: 1;
   display: flex;
@@ -376,18 +379,18 @@ div#divNuestraHistoria #contenedorHistoria .historia-div{
   align-items: center;
   justify-content: center;
   margin: 85px;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-div#divNuestraHistoria #contenedorHistoria .historia-div img{
-   margin-bottom:30px;
+div#div-nuestra-historia #contenedor-historia .historia-div img {
+   margin-bottom: 30px;
 }
 
- div#divNuestraHistoria #contenedorHistoria .historia-div .icon{  
+ div#div-nuestra-historia #contenedor-historia .historia-div .icon {  
     width: 240px;
 }
 
-div#divNuestraHistoria #contenedorHistoria .historia-div .texto-historia{
+div#div-nuestra-historia #contenedor-historia .historia-div .texto-historia {
     width: 240px;
     font-size: 16px;
     font-weight: 300;
@@ -396,26 +399,26 @@ div#divNuestraHistoria #contenedorHistoria .historia-div .texto-historia{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divBlog{ 
+div#div-blog { 
     background-color: #F4F1EF;
 }
 
-div#divBlog h1{
+div#div-blog h1 {
   padding: 50px;
 }
 
-div#divBlog #contenedorCardBlog{
+div#div-blog #contenedor-card-blog {
    padding: 60px;
 }
 
-div#divBlog #blogCards{
+div#div-blog #blog-cards {
     display: block;
     text-align: center;
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
     font-weight: 300;
     font-size: 16px;
     color: white;
-    background-color:#00ADBB; 
+    background-color: #00ADBB; 
     margin-left: 8px;
     margin-right: 8px;
     vertical-align: top;
@@ -427,7 +430,7 @@ div#divBlog #blogCards{
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#divContactos{
+div#div-contactos {
     background-color: #24BDC5;
     DISPLAY: flex;
     flex-wrap: wrap;
@@ -435,38 +438,40 @@ div#divContactos{
     flex-direction: column;
 }
 
-div#divContactos .entradasForm, #botonForm, #redesSociales{
+div#div-contactos .entradas-form, 
+#boton-form,
+ #redes-sociales {
     flex: 1;
 }
 
-div#divContactos #redesSociales{
+div#div-contactos #redes-sociales {
    display: flex;
    flex-wrap: wrap;
    padding: 50px;
 }
 
-div#divContactos #redesSociales a{
+div#div-contactos #redes-sociales a {
     text-align: center;
     flex: 1;
     margin: 20px;
  }
 
- div#divContactos #redesSociales a img{
+ div#div-contactos #redes-sociales a img {
     width: 58px!important;
     padding: 10px;
 }
 
-div#divContactos h1{
+div#div-contactos h1 {
     padding-bottom: 3px;
 }
 
-div#divContactos .entradasForm{
+div#div-contactos .entradas-form {
     display: flex;
     flex-wrap: wrap;
     padding: 70px;
 }
 
-div#divContactos .entradasForm #divFlexForm{
+div#div-contactos .entradas-form #div-flex-form {
     background-color: white;
     border-radius: 4px;
     width: 45%;
@@ -475,28 +480,28 @@ div#divContactos .entradasForm #divFlexForm{
     display: flex;
 }
 
-div#divContactos .entradasForm #divFlexFormSelector{
+div#div-contactos .entradas-form #divFlexFormSelector {
     background-color: white;
     border-radius: 4px;
-    border:none;
+    border: none;
     width: 93%;
     height: 65px;
     margin: 6px;
 }
 
-div#divContactos .entradasForm  {
+div#div-contactos .entradas-form  {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     padding: 70px;
 }
 
-div#divContactos .entradasForm #selectorComo{
+div#div-contactos .entradas-form #selector-como {
     width: 100%;
     border: none;
 }
 
-div#divContactos .entradasForm #divFlexFormMensaje{
+div#div-contactos .entradas-form #divFlexFormMensaje {
     background-color: white;
     border-radius: 4px;
     width: 93%;
@@ -505,7 +510,7 @@ div#divContactos .entradasForm #divFlexFormMensaje{
     display: flex;
 }
 
-div#divContactos #botonForm{
+div#div-contactos #boton-form {
     border-radius: 4px;
     border: 0;
     width: 40px;
@@ -522,7 +527,7 @@ div#divContactos #botonForm{
     text-transform: uppercase;
 }
 
-div#divContactos .entradasForm #divFlexFormMensaje #txtMensaje{
+div#div-contactos .entradas-form #divFlexFormMensaje #txtMensaje {
     width: 90%;
     margin-left: 1%;
     margin-top: 15px;
@@ -531,19 +536,19 @@ div#divContactos .entradasForm #divFlexFormMensaje #txtMensaje{
     border: none;
 }
 
-div#divContactos .entradasForm #divFlexFormMensaje img{
+div#div-contactos .entradas-form #divFlexFormMensaje img {
     margin: 9px;
     margin-top: 8px;
     margin-bottom: 190px;
     margin-left: 26px;
 }
 
-div#divContactos .entradasForm #divFlexForm img{
+div#div-contactos .entradas-form #div-flex-form img {
     margin: 15px;
     margin-top: 16px;
 }
 
-input[type=text]{
+input[type=text] {
     width: 90%;
     margin-left: 1%;
     margin-right: 1%;
@@ -552,55 +557,55 @@ input[type=text]{
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
-div#divTienda{
+div#div-tienda {
     background-color: #F4F1EF;
 }
 
-div#divTienda img{
+div#div-tienda img {
     max-width: 100%;
-    width:100vw; 
+    width: 100vw; 
 }
 
 /*  -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys */
 
-@media screen and (max-width:890px){
+@media screen and (max-width:890px) {
 
-    div#nav li a{        
+    div#nav li a {        
         margin-left: 15px;
         margin-top: 10px;
     }
 
-    div#divProductos #flexChild1 {
+    div#div-productos #flexChild1 {
         flex-direction: column;
     }
 
-    div#divProductos #productosLimpieza #imgArriba{
+    div#div-productos #productos-limpieza #img-arriba {
         display: none;
         padding-top: 10px;
     }
 
-    div#divProductos{
+    div#div-productos {
         width: 100%;
     }
 
-    div#divProductos #productosLimpieza {
+    div#div-productos #productos-limpieza {
         width: 100%;
         margin: 0px; 
 
     }
 
-    div#divProductos .botonLimpieza {
+    div#div-productos .boton-limpieza {
         padding-bottom: 10px;
         width: 100%;
         margin: 5px;
     }
 
-    button#btnMVV{
+    button#btn-mvv {
 
         /*aqui un comentario para crear algo diferente para el push*/
     }
 
-    button#btnMVV{
+    button#btn-mvv {
         width: 226px;
         padding-left: 20px;
         padding-right: 20px;
@@ -608,37 +613,37 @@ div#divTienda img{
         font-size: 18px;
     }
 
-    div#nav li a{
+    div#nav li a {
         display: none;
     }
 
-    div#divContactos .entradasForm #divFlexForm img {
+    div#div-contactos .entradas-form #div-flex-form img {
         display: none;
     }
 
-    div#divContactos .entradasForm #divFlexFormMensaje img {
+    div#div-contactos .entradas-form #divFlexFormMensaje img {
         display: none;
     }
 }
 
-@media screen and (max-width:545px){
+@media screen and (max-width:545px) {
 
-    div#divContactos .entradasForm #divFlexForm {
+    div#div-contactos .entradas-form #div-flex-form {
         margin: 6px;
     }
 
-    div#divContactos .entradasForm {
+    div#div-contactos .entradas-form {
         padding: 0px;
     }
 
-    div#divContactos #redesSociales {
+    div#div-contactos #redes-sociales {
         padding: 0%;
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:450px) {
 
-    div#divNosotros #contNosotros {
+    div#div-nosotros #cont-nosotros {
         display: block;
     }
 }
