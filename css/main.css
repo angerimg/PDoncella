@@ -9,11 +9,9 @@ html {
 
 html, 
 body {
-   
-    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    
+    width: 100%;
 }
 
 .centrar {
@@ -28,17 +26,17 @@ div {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 img#verde-grande {
-    max-width: 100%;
-    width: 100vw; 
+    max-width: 100%; 
     padding-top: 110px;
+    width: 100vw;
 }
 
 p {
-    text-align: center;
     display: block;
     margin-inline-start: 1em;
     margin-inline-end: 0px;
     scroll-margin-inline-start: 0px;
+    text-align: center;
 }
 
 p#verde {
@@ -58,20 +56,20 @@ h1#verde {
 }
 
 h1 {
-    font-weight: 300;
     font-size: 55px;
+    font-weight: 300;
+    padding: 85px;  
     text-align: center;
     text-transform: uppercase;
-    padding: 85px;  
 }
 
 div#nav {
-    position: fixed;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: white;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;   
 }
 
 ul {
@@ -89,9 +87,9 @@ div#nav li {
 }
 
 div#nav li a {
+    display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    display: block;
     margin-left: 34px;
     margin-top: 21px;
     text-decoration: none;
@@ -106,13 +104,13 @@ div#div-hola h1 {
 }
 
 div#div-hola {
-    text-align: center;
-    display: block;
     background-color: #ffffff;
+    display: block;
     padding-bottom: 45px;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 45px;
+    text-align: center;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
@@ -129,9 +127,9 @@ div#div-servicios h1 {
 
 h2#s-verde {
     color: #00ADBB;
-    height: 42px;
     font-weight: normal;
     font-size: 18px;
+    height: 42px;
     margin-bottom: 32px;
     margin-top: 32px;
     overflow: hidden;
@@ -154,17 +152,17 @@ div#div-servicios #service-con {
 }
 
 div.service {
-    width: 175px;
     display: inline-block;
+    flex: 1;
     margin-left: 50px;
     margin: 10px;
     text-align: center;
-    flex: 1;
+    width: 175px;
 }
 
 div#div-servicios p {
-    text-transform: uppercase;
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
@@ -176,11 +174,11 @@ div#div-clientes {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-productos {
-    display: flex;
     align-items: center;
+    background-color: rgb(255, 255, 255);  
+    display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(255, 255, 255);   
 }
 
 div#div-productos #p_descripcion-productos {
@@ -189,10 +187,10 @@ div#div-productos #p_descripcion-productos {
 }
 
 div#div-productos #productos-limpieza {
-    width: 221px;
-    margin: 45px;
+    flex-direction: column; 
     padding-bottom: 15px;
-    flex-direction: column;    
+    margin: 45px; 
+    width: 221px;
 }
 
 div#div-productos #productos-limpieza 
@@ -204,16 +202,16 @@ img,
 }
 
 div#div-productos #flex-child {
-    margin-bottom: 30px;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 div#div-productos #flex-child1 {
-    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 div#div-productos  #limpieza-verde {
@@ -236,12 +234,12 @@ div#div-productos .boton-limpieza {
     color: white;
     font-weight: 300;
     font-size: 20px;
-    width: 240px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-transform: uppercase;
+    width: 240px;
 }
 
 div#div-productos #imagenCarrito {
@@ -254,14 +252,14 @@ div#div-productos #imagenCarrito {
  div#misionVisionValores {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
  div#div-nosotros {  
     background-color: #F4F1EF;
-    text-align: center;
     padding: 35px;
+    text-align: center;
 }
 
 div#div-nosotros #contenedor-nosotros {
@@ -270,9 +268,9 @@ div#div-nosotros #contenedor-nosotros {
 
 div#div-nosotros #cont-nosotros #descripcion {
     display: block;
-    text-align: justify;
     margin-left: 25px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 div#div-nosotros #cont-nosotros #descripcion h2 {
@@ -281,8 +279,8 @@ div#div-nosotros #cont-nosotros #descripcion h2 {
 }
 
 div#div-nosotros #cont-nosotros #descripcion p {
-    text-align: left;
     margin-inline-start: 0%;
+    text-align: left;
   }
 
 h2.h2-verde {
@@ -292,27 +290,27 @@ h2.h2-verde {
 
 div#div-nosotros #cont-nosotros {
     display: flex;
-    text-align: center;
     padding-left: 10px;
+    text-align: center;
 }
 
 button#btn-mvv {
-    margin: 0 auto;
-    display: block;
-    margin-bottom: auto;
-    text-decoration: none;
+    color: white;
+    cursor: pointer;
     background-color: #F05C5C;
     border: 0;
     border-radius: 4px;
-    color: white;
-    cursor: pointer;
+    display: block;
     font-weight: 300;
     font-size: 26px;
+    margin: 0 auto;
+    margin-bottom: auto;
     margin-top: 30px;
     padding-bottom: 12px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 12px;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -328,35 +326,35 @@ div#card-valores {
 }
 
 div.card {
-    display: inline-block;
-    text-align: center;
+    border-radius: 4px;
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    color: white;
+    display: inline-block;
     font-weight: 300;
     font-size: 16px;
-    color: white;
-    border-radius: 4px;
+    height: 141px;
     margin-left: 8px;
     margin-right: 8px;
-    vertical-align: top;
-    width: 220px;
-    height: 141px;
     /*Se elimino la linea de Flex:1, esto es para que el elemento crezaca en relacion a otros
     como esto se le estaba aplicando a las 3 cartas pero se quiere un width fijo, esto hacia que el efecto de 
     wrap no funcionara. En combinacion con quitarle a el div que lo contiene la propiedad de "width:max-contect"*/
-    padding: 20px;
     margin-bottom: 16px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 220px;
 }
 
 div.card h2 {
-font-weight: bold;
-margin: 5px;
+    font-weight: bold;
+    margin: 5px;
 }
 
 div#div-nosotros #contenedor-mvv #cont-para-flex-mvv {
     display: flex;
     flex-wrap: wrap;  
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
@@ -372,14 +370,14 @@ div#div-nuestra-historia #contenedor-historia {
 }
 
 div#div-nuestra-historia #contenedor-historia .historia-div {
-   text-align: center;
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 85px;
-  flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 85px;
+    text-align: center;    
 }
 
 div#div-nuestra-historia #contenedor-historia .historia-div img {
@@ -391,10 +389,10 @@ div#div-nuestra-historia #contenedor-historia .historia-div img {
 }
 
 div#div-nuestra-historia #contenedor-historia .historia-div .texto-historia {
-    width: 240px;
+    color: white;
     font-size: 16px;
     font-weight: 300;
-    color: white;
+    width: 240px;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
