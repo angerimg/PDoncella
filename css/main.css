@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+
+:root{
+    --white: #ffffff; 
+    --red-button: #f05c5c;
+    --green-cards: #82BC00;
+    --green-blue: #24bdc5;
+    --yellow-cards: #FFB718;
+    --gray-background: #f4f1ef;
+    --green-blue-background: #00adbb;
+    --green-other: #00afa9;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -40,19 +52,19 @@ p {
 }
 
 p#verde {
-    color:  #00ADBB;
+    color:  var(--green-blue-background);
 }
 
 p#blanco {
-    color: white;
+    color: var(--white);
 }
 
 h1#blanco {
-    color: white;
+    color: var(--white);
 }
 
 h1#verde {
-    color:  #00ADBB;
+    color:  var(--green-blue-background);
 }
 
 h1 {
@@ -64,7 +76,7 @@ h1 {
 }
 
 div#nav {
-    background-color: white;
+    background-color: var(--white);
     margin: 0;
     overflow: hidden;
     padding: 0;
@@ -77,7 +89,7 @@ ul {
 }
 
 div#nav ul {
-    background-color: white;
+    background-color: var(--white);
     padding: 30px;
     text-align: center;
 }
@@ -99,12 +111,12 @@ div#nav li a {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-hola h1 {
-    color: #00ADBB;
+    color: var(--green-blue-background);
     font-size: 80px;
 }
 
 div#div-hola {
-    background-color: #ffffff;
+    background-color: var(--white);
     display: block;
     padding-bottom: 45px;
     padding-left: 45px;
@@ -116,7 +128,7 @@ div#div-hola {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-servicios {    
-    background-color: #F4F1EF;
+    background-color: var(--gray-background);
     display: block;
     text-align: center;
 }
@@ -126,7 +138,7 @@ div#div-servicios h1 {
 }
 
 h2#s-verde {
-    color: #00ADBB;
+    color: var(--green-blue-background);
     font-weight: normal;
     font-size: 18px;
     height: 42px;
@@ -168,14 +180,14 @@ div#div-servicios p {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-clientes {   
-    background-color: #24BDC5;
+    background-color: var(--green-blue);
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-productos {
     align-items: center;
-    background-color: rgb(255, 255, 255);  
+    background-color: var(--white);  
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -215,23 +227,23 @@ div#div-productos #flex-child1 {
 }
 
 div#div-productos  #limpieza-verde {
-    background-color: #82BC00;
+    background-color: var(--green-cards);
     margin-bottom: 20px;
 }
 
 div#div-productos  #limpieza-azul {
-    background-color: #00AFA9;
+    background-color: var(--green-other);
     margin-bottom: 20px;
 }
 
 div#div-productos  #limpieza-roja {
-    background-color: #F05C5C;
+    background-color: var(--red-button);
     margin-bottom: 20px;
 }
 
 div#div-productos .boton-limpieza {
     border-radius: 3px;
-    color: white;
+    color: var(--white);
     font-weight: 300;
     font-size: 20px;
     margin-top: 0px;
@@ -257,7 +269,7 @@ div#div-productos #imagenCarrito {
 }
 
  div#div-nosotros {  
-    background-color: #F4F1EF;
+    background-color: var(--gray-background);
     padding: 35px;
     text-align: center;
 }
@@ -274,7 +286,7 @@ div#div-nosotros #cont-nosotros #descripcion {
 }
 
 div#div-nosotros #cont-nosotros #descripcion h2 {
-  color:  #00ADBB;
+  color:  var(--green-blue-background);
   font-weight: bold;
 }
 
@@ -284,7 +296,7 @@ div#div-nosotros #cont-nosotros #descripcion p {
   }
 
 h2.h2-verde {
-    color:  #00ADBB;
+    color:  var(--green-blue-background);
     margin-bottom: 50px;
 }
 
@@ -295,9 +307,9 @@ div#div-nosotros #cont-nosotros {
 }
 
 button#btn-mvv {
-    color: white;
+    color: var(--white);
     cursor: pointer;
-    background-color: #F05C5C;
+    background-color: var(--red-button);
     border: 0;
     border-radius: 4px;
     display: block;
@@ -315,20 +327,20 @@ button#btn-mvv {
 }
 
 div#card-mision {
-    background-color: #00ADBB;
+    background-color: var(--green-blue-background);
 }
 
 div#card-vision {
-    background-color: #82BC00;
+    background-color: var(--green-cards);
 }
 div#card-valores {
-    background-color: #FFB718;
+    background-color: var(--yellow-cards);
 }
 
 div.card {
     border-radius: 4px;
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    color: white;
+    color: var(--white);
     display: inline-block;
     font-weight: 300;
     font-size: 16px;
@@ -360,7 +372,7 @@ div#div-nosotros #contenedor-mvv #cont-para-flex-mvv {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-nuestra-historia {   
-    background-color:#24BDC5;
+    background-color: var(--green-blue);
 }
 
 div#div-nuestra-historia #contenedor-historia {
@@ -389,7 +401,7 @@ div#div-nuestra-historia #contenedor-historia .historia-div img {
 }
 
 div#div-nuestra-historia #contenedor-historia .historia-div .texto-historia {
-    color: white;
+    color: var(--white);
     font-size: 16px;
     font-weight: 300;
     width: 240px;
@@ -398,7 +410,7 @@ div#div-nuestra-historia #contenedor-historia .historia-div .texto-historia {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-blog { 
-    background-color: #F4F1EF;
+    background-color: var(--gray-background);
 }
 
 div#div-blog h1 {
@@ -410,9 +422,9 @@ div#div-blog #contenedor-card-blog {
 }
 
 div#div-blog #blog-cards {
-    background-color: #00ADBB; 
+    background-color: var(--green-blue-background); 
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    color: white;
+    color: var(--white);
     display: block;
     font-weight: 300;
     font-size: 16px;
@@ -430,7 +442,7 @@ div#div-blog #blog-cards {
 
 div#div-contactos {
     align-items: center;
-    background-color: #24BDC5;
+    background-color: var(--green-blue);
     DISPLAY: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -470,7 +482,7 @@ div#div-contactos .entradas-form {
 }
 
 div#div-contactos .entradas-form #div-flex-form {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 4px;
     display: flex;
     height: 65px;
@@ -479,7 +491,7 @@ div#div-contactos .entradas-form #div-flex-form {
 }
 
 div#div-contactos .entradas-form #divFlexFormSelector {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 4px;
     border: none;
     height: 65px;
@@ -500,7 +512,7 @@ div#div-contactos .entradas-form #selector-como {
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 4px;
     display: flex;
     height: 240px;
@@ -556,7 +568,7 @@ input[type=text] {
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 div#div-tienda {
-    background-color: #F4F1EF;
+    background-color: var(--gray-background);
 }
 
 div#div-tienda img {
