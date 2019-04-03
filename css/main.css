@@ -410,29 +410,29 @@ div#div-blog #contenedor-card-blog {
 }
 
 div#div-blog #blog-cards {
-    display: block;
-    text-align: center;
+    background-color: #00ADBB; 
     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    color: white;
+    display: block;
     font-weight: 300;
     font-size: 16px;
-    color: white;
-    background-color: #00ADBB; 
+    height: 140px;
+    margin-bottom: 16px;
     margin-left: 8px;
     margin-right: 8px;
-    vertical-align: top;
     overflow: hidden;
-    height: 140px;
     padding: 20px;
-    margin-bottom: 16px;
+    text-align: center;
+    vertical-align: top;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-contactos {
+    align-items: center;
     background-color: #24BDC5;
     DISPLAY: flex;
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -472,19 +472,19 @@ div#div-contactos .entradas-form {
 div#div-contactos .entradas-form #div-flex-form {
     background-color: white;
     border-radius: 4px;
-    width: 45%;
-    height: 65px;
-    margin: 10px;
     display: flex;
+    height: 65px;
+    margin: 10px;  
+    width: 45%;
 }
 
 div#div-contactos .entradas-form #divFlexFormSelector {
     background-color: white;
     border-radius: 4px;
     border: none;
-    width: 93%;
     height: 65px;
     margin: 6px;
+    width: 93%;
 }
 
 div#div-contactos .entradas-form  {
@@ -495,43 +495,43 @@ div#div-contactos .entradas-form  {
 }
 
 div#div-contactos .entradas-form #selector-como {
-    width: 100%;
     border: none;
+    width: 100%;
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje {
     background-color: white;
     border-radius: 4px;
-    width: 93%;
-    margin: 6px;
-    height: 240px;
     display: flex;
+    height: 240px;
+    margin: 6px;
+    width: 93%;
 }
 
 div#div-contactos #boton-form {
     border-radius: 4px;
     border: 0;
-    width: 40px;
-    height: 25px;
+    border: none;
     cursor: pointer;
     flex: 1;
     font-family: 'OpenSans';
     font-weight: 300;
     font-size: 26px;
+    height: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
     padding-bottom: 17px;
-    border: none;
     text-transform: uppercase;
+    width: 40px;
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje #txtMensaje {
-    width: 90%;
+    border: none;
     margin-left: 1%;
     margin-top: 15px;
     margin-right: 1%;
     position: relative;
-    border: none;
+    width: 90%;
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje img {
@@ -547,11 +547,11 @@ div#div-contactos .entradas-form #div-flex-form img {
 }
 
 input[type=text] {
-    width: 90%;
+    border: none;
     margin-left: 1%;
     margin-right: 1%;
     position: relative;
-    border: none;
+    width: 90%;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
@@ -587,15 +587,14 @@ div#div-tienda img {
     }
 
     div#div-productos #productos-limpieza {
-        width: 100%;
         margin: 0px; 
-
+        width: 100%;
     }
 
     div#div-productos .boton-limpieza {
+        margin: 5px;
         padding-bottom: 10px;
         width: 100%;
-        margin: 5px;
     }
 
     button#btn-mvv {
@@ -604,11 +603,11 @@ div#div-tienda img {
     }
 
     button#btn-mvv {
-        width: 226px;
+        font-size: 18px;
         padding-left: 20px;
         padding-right: 20px;
         text-align: center;
-        font-size: 18px;
+        width: 226px;
     }
 
     div#nav li a {
