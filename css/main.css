@@ -45,8 +45,8 @@ img#verde-grande {
 p {
     display: block;
     margin-inline-start: 1em;
-    margin-inline-end: 0px;
-    scroll-margin-inline-start: 0px;
+    margin-inline-end: 0;
+    scroll-margin-inline-start: 0;
     text-align: center;
 }
 
@@ -280,7 +280,7 @@ div#div-nosotros #cont-nosotros #descripcion h2 {
 }
 
 div#div-nosotros #cont-nosotros #descripcion p {
-    margin-inline-start: 0%;
+    margin-inline-start: 0;
     text-align: left;
   }
 
