@@ -27,8 +27,7 @@ body {
 }
 
 .centrar {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 div {
@@ -39,7 +38,7 @@ div {
 
 img#verde-grande {
     max-width: 100%; 
-    padding-top: 110px;
+    padding:  110px 0px 0px 0px;
     width: 100vw;
 }
 
@@ -102,8 +101,7 @@ div#nav li a {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    margin-left: 34px;
-    margin-top: 21px;
+    margin: 21px 0px 0px 34px;
     text-decoration: none;
     text-transform: uppercase;    
 }
@@ -118,10 +116,7 @@ div#div-hola h1 {
 div#div-hola {
     background-color: var(--white);
     display: block;
-    padding-bottom: 45px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 45px;
+    padding: 45px 45px 45px 45px;
     text-align: center;
 }
 
@@ -134,7 +129,7 @@ div#div-servicios {
 }
 
 div#div-servicios h1 {
-    margin-bottom: -160px;
+    margin: 0px 0px -160px 0px;
 }
 
 h2#s-verde {
@@ -142,11 +137,9 @@ h2#s-verde {
     font-weight: normal;
     font-size: 18px;
     height: 42px;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    margin: 32px 0px 32px 0px;
     overflow: hidden;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 0px 6px 0px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -154,7 +147,7 @@ h2#s-verde {
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
 div#div-servicios ul li {
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 0px;
 }
 
 div#div-servicios #service-con {
@@ -166,14 +159,13 @@ div#div-servicios #service-con {
 div.service {
     display: inline-block;
     flex: 1;
-    margin-left: 50px;
-    margin: 10px;
+    margin: 10px 10px 10px 50px;
     text-align: center;
     width: 175px;
 }
 
 div#div-servicios p {
-    padding-bottom: 15px;
+    padding: 0px 0px 15px 0px;
     text-transform: uppercase;
 }
 
@@ -200,7 +192,7 @@ div#div-productos #p_descripcion-productos {
 
 div#div-productos #productos-limpieza {
     flex-direction: column; 
-    padding-bottom: 15px;
+    padding: 0px 0px 15px 0px;
     margin: 45px; 
     width: 221px;
 }
@@ -210,12 +202,12 @@ img,
  p,  
  button {
     flex: 1;
-    padding-bottom:  20px;
+    padding:  0px 0px 20px 0px;
 }
 
 div#div-productos #flex-child {
     flex-direction: column;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 div#div-productos #flex-child1 {
@@ -223,22 +215,22 @@ div#div-productos #flex-child1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 div#div-productos  #limpieza-verde {
     background-color: var(--green-cards);
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 div#div-productos  #limpieza-azul {
     background-color: var(--green-other);
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 div#div-productos  #limpieza-roja {
     background-color: var(--red-button);
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 div#div-productos .boton-limpieza {
@@ -246,10 +238,8 @@ div#div-productos .boton-limpieza {
     color: var(--white);
     font-weight: 300;
     font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
     text-transform: uppercase;
     width: 240px;
 }
@@ -280,8 +270,7 @@ div#div-nosotros #contenedor-nosotros {
 
 div#div-nosotros #cont-nosotros #descripcion {
     display: block;
-    margin-left: 25px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 25px;
     text-align: justify;
 }
 
@@ -297,12 +286,12 @@ div#div-nosotros #cont-nosotros #descripcion p {
 
 h2.h2-verde {
     color:  var(--green-blue-background);
-    margin-bottom: 50px;
+    margin: 0px 0px 50px 0px;
 }
 
 div#div-nosotros #cont-nosotros {
     display: flex;
-    padding-left: 10px;
+    padding: 0px 0px 0px 10px;
     text-align: center;
 }
 
@@ -316,12 +305,8 @@ button#btn-mvv {
     font-weight: 300;
     font-size: 26px;
     margin: 0 auto;
-    margin-bottom: auto;
-    margin-top: 30px;
-    padding-bottom: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 12px;
+    margin: 30px 0px auto 0px;
+    padding: 12px 50px 12px 50px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -345,12 +330,10 @@ div.card {
     font-weight: 300;
     font-size: 16px;
     height: 141px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: 0px 8px 16px 8px;
     /*Se elimino la linea de Flex:1, esto es para que el elemento crezaca en relacion a otros
     como esto se le estaba aplicando a las 3 cartas pero se quiere un width fijo, esto hacia que el efecto de 
     wrap no funcionara. En combinacion con quitarle a el div que lo contiene la propiedad de "width:max-contect"*/
-    margin-bottom: 16px;
     padding: 20px;
     text-align: center;
     vertical-align: top;
@@ -393,7 +376,7 @@ div#div-nuestra-historia #contenedor-historia .historia-div {
 }
 
 div#div-nuestra-historia #contenedor-historia .historia-div img {
-   margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
  div#div-nuestra-historia #contenedor-historia .historia-div .icon {  
@@ -429,9 +412,7 @@ div#div-blog #blog-cards {
     font-weight: 300;
     font-size: 16px;
     height: 140px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: 0px 8px 16px 8px;
     overflow: hidden;
     padding: 20px;
     text-align: center;
@@ -472,7 +453,7 @@ div#div-contactos #redes-sociales a {
 }
 
 div#div-contactos h1 {
-    padding-bottom: 3px;
+    padding: 0px 0px 3px 0px;
 }
 
 div#div-contactos .entradas-form {
@@ -530,38 +511,30 @@ div#div-contactos #boton-form {
     font-weight: 300;
     font-size: 26px;
     height: 25px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding-bottom: 17px;
+    margin: 30px 0px 10px 0px;
+    padding: 0px 0px 17px 0px;
     text-transform: uppercase;
     width: 40px;
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje #txtMensaje {
     border: none;
-    margin-left: 1%;
-    margin-top: 15px;
-    margin-right: 1%;
+    margin: 15px 1% 0px 1%;
     position: relative;
     width: 90%;
 }
 
 div#div-contactos .entradas-form #divFlexFormMensaje img {
-    margin: 9px;
-    margin-top: 8px;
-    margin-bottom: 190px;
-    margin-left: 26px;
+    margin: 8px 9px 190px 26px;
 }
 
 div#div-contactos .entradas-form #div-flex-form img {
-    margin: 15px;
-    margin-top: 16px;
+    margin: 16px 15px 15px 15px;
 }
 
 input[type=text] {
     border: none;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0px 1% 0px 1%;
     position: relative;
     width: 90%;
 }
@@ -580,9 +553,8 @@ div#div-tienda img {
 
 @media screen and (max-width:890px) {
 
-    div#nav li a {        
-        margin-left: 15px;
-        margin-top: 10px;
+    div#nav li a {  
+        margin: 10px 0px 0px 15px;
     }
 
     div#div-productos #flexChild1 {
@@ -591,7 +563,7 @@ div#div-tienda img {
 
     div#div-productos #productos-limpieza #img-arriba {
         display: none;
-        padding-top: 10px;
+        padding: 10px 0px 0px 0px;
     }
 
     div#div-productos {
@@ -605,7 +577,7 @@ div#div-tienda img {
 
     div#div-productos .boton-limpieza {
         margin: 5px;
-        padding-bottom: 10px;
+        padding: 0px 0px 10px 0px;
         width: 100%;
     }
 
@@ -616,8 +588,7 @@ div#div-tienda img {
 
     button#btn-mvv {
         font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding:  0px 20px 0px 20px;
         text-align: center;
         width: 226px;
     }
