@@ -34,11 +34,12 @@ div {
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-img#green-big {
+img#green-big  {
   max-width: 100%;
   padding: 110px 0px 0px 0px;
   width: 100vw;
 }
+
 
 p {
   display: block;
@@ -541,6 +542,44 @@ div#div-shop {
 div#div-shop img {
   max-width: 100%;
   width: 100vw;
+}
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+#div-pic-big {
+  /*este div es el contenedor de todo */
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0%;
+  position: relative;
+}
+.navButton{
+  /*Nice buttons*/
+  cursor: pointer;
+  background: #000000;
+  color: white;
+  display: none;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  height: 22px;
+  margin-right: 5px;
+  opacity: 0.65;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  user-select: none;
+  width: 25px;
+}
+
+.navButton:hover {
+  opacity: 1;
+  
+}
+
+.imageContainer:not(:first-child) {
+  /* Hide all images except the first */
+  display: none;
 }
 
 /*  -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys */
