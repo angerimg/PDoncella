@@ -1,11 +1,15 @@
 
 $(document).ready(function () {
+
+    //Empieza con las funcionalidades del slide show
+    //boton anterior
     $('#previous').on('click', function () {
         // Change to the previous image
         $('#im_' + currentImage).stop().fadeOut(1);
         decreaseImage();
         $('#im_' + currentImage).stop().fadeIn(1);
     });
+    //boton siguiente 
     $('#next').on('click', function () {
         // Change to the next image
         $('#im_' + currentImage).stop().fadeOut(1);
@@ -13,6 +17,7 @@ $(document).ready(function () {
         $('#im_' + currentImage).stop().fadeIn(1);
     });
 
+    //codigo para calcular la imagen
     var currentImage = 1;
     var totalImages = 4;
 
@@ -35,7 +40,7 @@ $(document).ready(function () {
         }
     }
 
-
+    //codigo para automatizar el slide
     window.setInterval(function() {
         $('#previous').click();
       }, 2500);
