@@ -582,6 +582,18 @@ div#div-shop img {
   display: none;
 }
 
+
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#div-shop{
+  height: 50vw;
+  margin: 0;
+  padding: 0;
+}
+div#div-shop   #map {
+  height: 100%;
+}
 /*  -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys */
 
 @media screen and (max-width:890px) {
