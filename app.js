@@ -4,7 +4,7 @@ $(document).ready(function () {
     //Empieza con las funcionalidades del slide show
     //boton anterior
     $('#previous').on('click', function () {
-        console.log('::Running');
+        //console.log('::Running');
 
         // Change to the previous image
         $('#im_' + currentImage).fadeOut("fast", function () {
@@ -39,10 +39,9 @@ $(document).ready(function () {
         /* Decrease currentImage by 1.
         * Resets to totalImages if smaller than 1
         */
-        console.log('::Current image', currentImage);
         currentImage--;
         if (currentImage == 0) {
-            console.log('::ENTROOO', currentImage);
+           
             currentImage = totalImages;
         }
     }
