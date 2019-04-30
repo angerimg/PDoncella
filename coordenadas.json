@@ -16,5 +16,11 @@
         "lat": 19.46914853,
         "lng": -70.6868484,
         "info": "Aqui esta plaza Hache"
+    },
+    {
+        "name": "Trebol",
+        "lat": 19.47088875,
+        "lng": -70.68217278,
+        "info": "Aqui esta el supermercado Trebol"
     }
 ]
