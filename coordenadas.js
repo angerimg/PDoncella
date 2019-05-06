@@ -1,1 +1,0 @@
-var data='[{"name": "Doncella","lat": 19.46505,"lng": -70.687903,"info": "Aqui esta Doncella"},{"name": "Intellisys","lat": 19.47023552,"lng": -70.67755723,"info": "Aqui esta Intellisys"},{"name": "Hache","lat": 19.46914853,"lng": -70.6868484,"info": "Aqui esta plaza Hache"}]';

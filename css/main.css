@@ -34,7 +34,7 @@ div {
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-img#green-big {
+img.green-big {
   max-width: 100%;
   padding: 110px 0px 0px 0px;
   width: 100vw;
@@ -48,19 +48,19 @@ p {
   text-align: center;
 }
 
-p#green {
+p.green {
   color: var(--green-blue-background);
 }
 
-p#white {
+p.white {
   color: var(--white);
 }
 
-h1#white {
+h1.white {
   color: var(--white);
 }
 
-h1#green {
+h1.green {
   color: var(--green-blue-background);
 }
 
@@ -130,7 +130,7 @@ div#div-services h1 {
   margin: 0px 0px -160px 0px;
 }
 
-h2#s-green {
+h2.s-green {
   color: var(--green-blue-background);
   font-size: 18px;
   height: 42px;
@@ -544,35 +544,12 @@ div#div-shop img {
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-#div-pic-big {
+#div-slideshow-image {
   /*este div es el contenedor de todo */
   overflow: hidden;
   margin: 0 auto;
   padding: 0%;
   position: relative;
-}
-
-.navButton {
-  /*Nice buttons*/
-  cursor: pointer;
-  background: #000000;
-  color: white;
-  display: none;
-  font-size: 18px;
-  font-weight: bold;
-  float: left;
-  height: 22px;
-  margin-right: 5px;
-  opacity: 0.65;
-  overflow: hidden;
-  padding: 10px;
-  text-align: center;
-  user-select: none;
-  width: 25px;
-}
-
-.navButton:hover {
-  opacity: 1;
 }
 
 .imageContainer:not(:first-child) {

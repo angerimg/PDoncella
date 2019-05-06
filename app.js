@@ -1,25 +1,17 @@
 
 $(document).ready(function () {
-
-    //Empieza con las funcionalidades del slide show
-    //codigo para calcular la imagen
+    //slideshow
     var currentImage = 1;
     var totalImages = 3;
-
     function decreaseImage() {
         /* Decrease currentImage by 1.
-        * Resets to totalImages if smaller than 1
-        */
+        * Resets to totalImages if smaller than 1*/
         currentImage--;
-        if (currentImage == 0) {
-           
-            currentImage = totalImages;
-        }
+        if (currentImage == 0) currentImage = totalImages;
     }
 
-    //codigo para automatizar el slide
+    //auto slide
     window.setInterval(function () {
-        //$('#previous').click();
         $('#im_' + currentImage).fadeOut("fast", function () {
             decreaseImage();
             $('#im_' + currentImage).fadeIn("fast");
