@@ -1,406 +1,394 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --red-button: #f05c5c;
+  --green-cards: #82BC00;
+  --green-blue: #24bdc5;
+  --yellow-cards: #FFB718;
+  --gray-background: #f4f1ef;
+  --green-blue-background: #00adbb;
+  --green-other: #00afa9;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-html, 
-body {
-   
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  width: 100%;
 }
 
-.centrar {
-    margin-left: auto;
-    margin-right: auto;
+.center {
+  margin: 0 auto;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-img#verde-grande {
-    max-width: 100%;
-    width: 100vw; 
-    padding-top: 110px;
+img#green-big {
+  max-width: 100%;
+  padding: 110px 0px 0px 0px;
+  width: 100vw;
 }
 
 p {
-    text-align: center;
-    display: block;
-    margin-inline-start: 1em;
-    margin-inline-end: 0px;
-    scroll-margin-inline-start: 0px;
+  display: block;
+  margin-inline-start: 1em;
+  margin-inline-end: 0;
+  scroll-margin-inline-start: 0;
+  text-align: center;
 }
 
-p#verde {
-    color:  #00ADBB;
+p#green {
+  color: var(--green-blue-background);
 }
 
-p#blanco {
-    color: white;
+p#white {
+  color: var(--white);
 }
 
-h1#blanco {
-    color: white;
+h1#white {
+  color: var(--white);
 }
 
-h1#verde {
-    color:  #00ADBB;
+h1#green {
+  color: var(--green-blue-background);
 }
 
 h1 {
-    font-weight: 300;
-    font-size: 55px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 85px;  
+  font-size: 55px;
+  font-weight: 300;
+  padding: 85px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 div#nav {
-    position: fixed;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
+  background-color: var(--white);
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 div#nav ul {
-    background-color: white;
-    padding: 30px;
-    text-align: center;
+  background-color: var(--white);
+  padding: 30px;
+  text-align: center;
 }
 
-div#nav li {  
-    display: inline-block;
+div#nav li {
+  display: inline-block;
 }
 
 div#nav li a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    display: block;
-    margin-left: 34px;
-    margin-top: 21px;
-    text-decoration: none;
-    text-transform: uppercase;    
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 21px 0px 0px 34px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-hola h1 {
-    color: #00ADBB;
-    font-size: 80px;
+div#div-hello h1 {
+  color: var(--green-blue-background);
+  font-size: 80px;
 }
 
-div#div-hola {
-    text-align: center;
-    display: block;
-    background-color: #ffffff;
-    padding-bottom: 45px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 45px;
+div#div-hello {
+  background-color: var(--white);
+  display: block;
+  padding: 45px 45px 45px 45px;
+  text-align: center;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-servicios {    
-    background-color: #F4F1EF;
-    display: block;
-    text-align: center;
+div#div-services {
+  background-color: var(--gray-background);
+  display: block;
+  text-align: center;
 }
 
-div#div-servicios h1 {
-    margin-bottom: -160px;
+div#div-services h1 {
+  margin: 0px 0px -160px 0px;
 }
 
-h2#s-verde {
-    color: #00ADBB;
-    height: 42px;
-    font-weight: normal;
-    font-size: 18px;
-    margin-bottom: 32px;
-    margin-top: 32px;
-    overflow: hidden;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    text-align: center;
-    text-transform: uppercase;
+h2#s-green {
+  color: var(--green-blue-background);
+  font-size: 18px;
+  height: 42px;
+  margin: 32px 0px 32px 0px;
+  overflow: hidden;
+  padding: 6px 0px 6px 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-servicios ul li {
-    margin-bottom: 10px;
+div#div-services ul li {
+  margin: 0px 0px 10px 0px;
 }
 
-div#div-servicios #service-con {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 180px;
+div#div-services #service-con {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 180px;
 }
 
 div.service {
-    width: 175px;
-    display: inline-block;
-    margin-left: 50px;
-    margin: 10px;
-    text-align: center;
-    flex: 1;
+  display: inline-block;
+  flex: 1;
+  margin: 10px 10px 10px 50px;
+  text-align: center;
+  width: 175px;
 }
 
-div#div-servicios p {
-    text-transform: uppercase;
-    padding-bottom: 15px;
-}
-
-/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
-
-div#div-clientes {   
-    background-color: #24BDC5;
+div#div-services p {
+  padding: 0px 0px 15px 0px;
+  text-transform: uppercase;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-productos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgb(255, 255, 255);   
+div#div-clients {
+  background-color: var(--green-blue);
 }
 
-div#div-productos #p_descripcion-productos {
-    margin: 10px;
-    max-width: 600px;
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#div-products {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-div#div-productos #productos-limpieza {
-    width: 221px;
-    margin: 45px;
-    padding-bottom: 15px;
-    flex-direction: column;    
+div#div-products #p_description-products {
+  margin: 10px;
+  max-width: 600px;
 }
 
-div#div-productos #productos-limpieza 
-img,
- p,  
- button {
-    flex: 1;
-    padding-bottom:  20px;
+div#div-products #products-clean {
+  flex-direction: column;
+  padding: 0px 0px 15px 0px;
+  margin: 45px;
+  width: 221px;
 }
 
-div#div-productos #flex-child {
-    margin-bottom: 30px;
-    flex-direction: column;
+div#div-products #products-clean img, p, button {
+  flex: 1;
+  padding: 0px 0px 20px 0px;
 }
 
-div#div-productos #flex-child1 {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+div#div-products #flex-child {
+  flex-direction: column;
+  margin: 0px 0px 30px 0px;
 }
 
-div#div-productos  #limpieza-verde {
-    background-color: #82BC00;
-    margin-bottom: 20px;
+div#div-products #flex-child1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 0px 30px 0px;
 }
 
-div#div-productos  #limpieza-azul {
-    background-color: #00AFA9;
-    margin-bottom: 20px;
+div#div-products #clean-green {
+  background-color: var(--green-cards);
+  margin: 0px 0px 20px 0px;
 }
 
-div#div-productos  #limpieza-roja {
-    background-color: #F05C5C;
-    margin-bottom: 20px;
+div#div-products #clean-blue {
+  background-color: var(--green-other);
+  margin: 0px 0px 20px 0px;
 }
 
-div#div-productos .boton-limpieza {
-    border-radius: 3px;
-    color: white;
-    font-weight: 300;
-    font-size: 20px;
-    width: 240px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
+div#div-products #clean-red {
+  background-color: var(--red-button);
+  margin: 0px 0px 20px 0px;
 }
 
-div#div-productos #imagenCarrito {
-    display: inline;
-    text-align: center;
+div#div-products .button-clean {
+  border-radius: 3px;
+  color: var(--white);
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
+  text-transform: uppercase;
+  width: 240px;
 }
 
- /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
-
- div#misionVisionValores {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+div#div-products #imgCar {
+  display: inline;
+  text-align: center;
 }
 
- div#div-nosotros {  
-    background-color: #F4F1EF;
-    text-align: center;
-    padding: 35px;
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#mission-view-values {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-div#div-nosotros #contenedor-nosotros {
-    padding: 80px;
+div#div-about-us {
+  background-color: var(--gray-background);
+  padding: 35px;
+  text-align: center;
 }
 
-div#div-nosotros #cont-nosotros #descripcion {
-    display: block;
-    text-align: justify;
-    margin-left: 25px;
-    margin-bottom: 30px;
+div#div-about-us #container-about-us {
+  padding: 80px;
 }
 
-div#div-nosotros #cont-nosotros #descripcion h2 {
-  color:  #00ADBB;
+div#div-about-us #cont-about-us #description {
+  display: block;
+  margin: 0px 0px 30px 25px;
+  text-align: justify;
+}
+
+div#div-about-us #cont-about-us #description h2 {
+  color: var(--green-blue-background);
   font-weight: bold;
 }
 
-div#div-nosotros #cont-nosotros #descripcion p {
-    text-align: left;
-    margin-inline-start: 0%;
-  }
-
-h2.h2-verde {
-    color:  #00ADBB;
-    margin-bottom: 50px;
+div#div-about-us #cont-about-us #description p {
+  margin-inline-start: 0;
+  text-align: left;
 }
 
-div#div-nosotros #cont-nosotros {
-    display: flex;
-    text-align: center;
-    padding-left: 10px;
+h2.h2-green {
+  color: var(--green-blue-background);
+  margin: 0px 0px 50px 0px;
+}
+
+div#div-about-us #cont-about-us {
+  display: flex;
+  padding: 0px 0px 0px 10px;
+  text-align: center;
 }
 
 button#btn-mvv {
-    margin: 0 auto;
-    display: block;
-    margin-bottom: auto;
-    text-decoration: none;
-    background-color: #F05C5C;
-    border: 0;
-    border-radius: 4px;
-    color: white;
-    cursor: pointer;
-    font-weight: 300;
-    font-size: 26px;
-    margin-top: 30px;
-    padding-bottom: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 12px;
-    text-transform: uppercase;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--red-button);
+  border: 0;
+  border-radius: 4px;
+  display: block;
+  font-weight: 300;
+  font-size: 26px;
+  margin: 0 auto;
+  margin: 30px 0px auto 0px;
+  padding: 12px 50px 12px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-div#card-mision {
-    background-color: #00ADBB;
+div#card-mission {
+  background-color: var(--green-blue-background);
 }
 
-div#card-vision {
-    background-color: #82BC00;
+div#card-view {
+  background-color: var(--green-cards);
 }
-div#card-valores {
-    background-color: #FFB718;
+
+div#card-values {
+  background-color: var(--yellow-cards);
 }
 
 div.card {
-    display: inline-block;
-    text-align: center;
-    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
-    border-radius: 4px;
-    margin-left: 8px;
-    margin-right: 8px;
-    vertical-align: top;
-    width: 220px;
-    height: 141px;
-    /*Se elimino la linea de Flex:1, esto es para que el elemento crezaca en relacion a otros
+  border-radius: 4px;
+  box-shadow: 0px 5px 15px 0px rgba(153, 153, 153, 0.5);
+  color: var(--white);
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  height: 141px;
+  margin: 0px 8px 16px 8px;
+  /*Se elimino la linea de Flex:1, esto es para que el elemento crezaca en relacion a otros
     como esto se le estaba aplicando a las 3 cartas pero se quiere un width fijo, esto hacia que el efecto de 
     wrap no funcionara. En combinacion con quitarle a el div que lo contiene la propiedad de "width:max-contect"*/
-    padding: 20px;
-    margin-bottom: 16px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 220px;
 }
 
 div.card h2 {
-font-weight: bold;
-margin: 5px;
+  font-weight: bold;
+  margin: 5px;
 }
 
-div#div-nosotros #contenedor-mvv #cont-para-flex-mvv {
-    display: flex;
-    flex-wrap: wrap;  
-    justify-content: center;
-    flex-direction: column;
-}
-
-/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
-
-div#div-nuestra-historia {   
-    background-color:#24BDC5;
-}
-
-div#div-nuestra-historia #contenedor-historia {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 61px;
-}
-
-div#div-nuestra-historia #contenedor-historia .historia-div {
-   text-align: center;
-  flex: 1;
+div#div-about-us #container-mvv #cont-flex-mvv {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 85px;
   flex-direction: column;
-}
-
-div#div-nuestra-historia #contenedor-historia .historia-div img {
-   margin-bottom: 30px;
-}
-
- div#div-nuestra-historia #contenedor-historia .historia-div .icon {  
-    width: 240px;
-}
-
-div#div-nuestra-historia #contenedor-historia .historia-div .texto-historia {
-    width: 240px;
-    font-size: 16px;
-    font-weight: 300;
-    color: white;
+  justify-content: center;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-blog { 
-    background-color: #F4F1EF;
+div#div-our-history {
+  background-color: var(--green-blue);
+}
+
+div#div-our-history #container-history {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 61px;
+}
+
+div#div-our-history #container-history .history-div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 85px;
+  text-align: center;
+}
+
+div#div-our-history #container-history .history-div img {
+  margin: 0px 0px 30px 0px;
+}
+
+div#div-our-history #container-history .history-div .icon {
+  width: 240px;
+}
+
+div#div-our-history #container-history .history-div .txt-history {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 300;
+  width: 240px;
+}
+
+/* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
+
+div#div-blog {
+  background-color: var(--gray-background);
 }
 
 div#div-blog h1 {
@@ -408,243 +396,209 @@ div#div-blog h1 {
 }
 
 div#div-blog #contenedor-card-blog {
-   padding: 60px;
+  padding: 60px;
 }
 
 div#div-blog #blog-cards {
-    display: block;
-    text-align: center;
-    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
-    background-color: #00ADBB; 
-    margin-left: 8px;
-    margin-right: 8px;
-    vertical-align: top;
-    overflow: hidden;
-    height: 140px;
-    padding: 20px;
-    margin-bottom: 16px;
+  background-color: var(--green-blue-background);
+  box-shadow: 0px 5px 15px 0px rgba(153, 153, 153, 0.5);
+  color: var(--white);
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  height: 140px;
+  margin: 0px 8px 16px 8px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
 
-div#div-contactos {
-    background-color: #24BDC5;
-    DISPLAY: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
+div#div-contact {
+  align-items: center;
+  background-color: var(--green-blue);
+  DISPLAY: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-div#div-contactos .entradas-form, 
-#boton-form,
- #redes-sociales {
-    flex: 1;
+div#div-contact .entry-form, #button-form, #social-net {
+  flex: 1;
 }
 
-div#div-contactos #redes-sociales {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 50px;
+div#div-contact #social-net {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 
-div#div-contactos #redes-sociales a {
-    text-align: center;
-    flex: 1;
-    margin: 20px;
- }
-
- div#div-contactos #redes-sociales a img {
-    width: 58px !important;
-    padding: 10px;
+div#div-contact #social-net a {
+  text-align: center;
+  flex: 1;
+  margin: 20px;
 }
 
-div#div-contactos h1 {
-    padding-bottom: 3px;
+div#div-contact #social-net a img {
+  width: 58px !important;
+  padding: 10px;
 }
 
-div#div-contactos .entradas-form {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 70px;
+div#div-contact h1 {
+  padding: 0px 0px 3px 0px;
 }
 
-div#div-contactos .entradas-form #div-flex-form {
-    background-color: white;
-    border-radius: 4px;
-    width: 45%;
-    height: 65px;
-    margin: 10px;
-    display: flex;
+div#div-contact .entry-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px;
 }
 
-div#div-contactos .entradas-form #divFlexFormSelector {
-    background-color: white;
-    border-radius: 4px;
-    border: none;
-    width: 93%;
-    height: 65px;
-    margin: 6px;
+div#div-contact .entry-form #div-flex-form {
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 65px;
+  margin: 10px;
+  width: 45%;
 }
 
-div#div-contactos .entradas-form  {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    padding: 70px;
+div#div-contact .entry-form #divFlexFormSelector {
+  background-color: var(--white);
+  border-radius: 4px;
+  border: none;
+  height: 65px;
+  margin: 6px;
+  width: 93%;
 }
 
-div#div-contactos .entradas-form #selector-como {
-    width: 100%;
-    border: none;
+div#div-contact .entry-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 70px;
 }
 
-div#div-contactos .entradas-form #divFlexFormMensaje {
-    background-color: white;
-    border-radius: 4px;
-    width: 93%;
-    margin: 6px;
-    height: 240px;
-    display: flex;
+div#div-contact .entry-form #selector {
+  border: none;
+  width: 100%;
 }
 
-div#div-contactos #boton-form {
-    border-radius: 4px;
-    border: 0;
-    width: 40px;
-    height: 25px;
-    cursor: pointer;
-    flex: 1;
-    font-family: 'OpenSans';
-    font-weight: 300;
-    font-size: 26px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding-bottom: 17px;
-    border: none;
-    text-transform: uppercase;
+div#div-contact .entry-form #divFlexFormMens {
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 240px;
+  margin: 6px;
+  width: 93%;
 }
 
-div#div-contactos .entradas-form #divFlexFormMensaje #txtMensaje {
-    width: 90%;
-    margin-left: 1%;
-    margin-top: 15px;
-    margin-right: 1%;
-    position: relative;
-    border: none;
+div#div-contact #button-form {
+  border-radius: 4px;
+  border: 0;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 26px;
+  height: 25px;
+  margin: 30px 0px 10px 0px;
+  padding: 0px 0px 17px 0px;
+  text-transform: uppercase;
+  width: 40px;
 }
 
-div#div-contactos .entradas-form #divFlexFormMensaje img {
-    margin: 9px;
-    margin-top: 8px;
-    margin-bottom: 190px;
-    margin-left: 26px;
+div#div-contact .entry-form #divFlexFormMens #txtMens {
+  border: none;
+  margin: 15px 1% 0px 1%;
+  position: relative;
+  width: 90%;
 }
 
-div#div-contactos .entradas-form #div-flex-form img {
-    margin: 15px;
-    margin-top: 16px;
+div#div-contact .entry-form #divFlexFormMens img {
+  margin: 8px 9px 190px 26px;
+}
+
+div#div-contact .entry-form #div-flex-form img {
+  margin: 16px 15px 15px 15px;
 }
 
 input[type=text] {
-    width: 90%;
-    margin-left: 1%;
-    margin-right: 1%;
-    position: relative;
-    border: none;
+  border: none;
+  margin: 0px 1% 0px 1%;
+  position: relative;
+  width: 90%;
 }
 
 /* -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales -Contenedores de Secciones principales*/
-div#div-tienda {
-    background-color: #F4F1EF;
+
+div#div-shop {
+  background-color: var(--gray-background);
 }
 
-div#div-tienda img {
-    max-width: 100%;
-    width: 100vw; 
+div#div-shop img {
+  max-width: 100%;
+  width: 100vw;
 }
 
 /*  -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys -Media Querys */
 
 @media screen and (max-width:890px) {
-
-    div#nav li a {        
-        margin-left: 15px;
-        margin-top: 10px;
-    }
-
-    div#div-productos #flexChild1 {
-        flex-direction: column;
-    }
-
-    div#div-productos #productos-limpieza #img-arriba {
-        display: none;
-        padding-top: 10px;
-    }
-
-    div#div-productos {
-        width: 100%;
-    }
-
-    div#div-productos #productos-limpieza {
-        width: 100%;
-        margin: 0px; 
-
-    }
-
-    div#div-productos .boton-limpieza {
-        padding-bottom: 10px;
-        width: 100%;
-        margin: 5px;
-    }
-
-    button#btn-mvv {
-
-        /*aqui un comentario para crear algo diferente para el push*/
-    }
-
-    button#btn-mvv {
-        width: 226px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    div#nav li a {
-        display: none;
-    }
-
-    div#div-contactos .entradas-form #div-flex-form img {
-        display: none;
-    }
-
-    div#div-contactos .entradas-form #divFlexFormMensaje img {
-        display: none;
-    }
+  div#nav li a {
+    margin: 10px 0px 0px 15px;
+  }
+  div#div-products #flexChild1 {
+    flex-direction: column;
+  }
+  div#div-products #products-clean #img-up {
+    display: none;
+    padding: 10px 0px 0px 0px;
+  }
+  div#div-products {
+    width: 100%;
+  }
+  div#div-products #products-clean {
+    margin: 0px;
+    width: 100%;
+  }
+  div#div-products .button-clean {
+    margin: 5px;
+    padding: 0px 0px 10px 0px;
+    width: 100%;
+  }
+  button#btn-mvv {
+    font-size: 18px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    width: 226px;
+  }
+  div#nav li a {
+    display: none;
+  }
+  div#div-contact .entry-form #div-flex-form img {
+    display: none;
+  }
+  div#div-contact .entry-form #divFlexFormMens img {
+    display: none;
+  }
 }
 
 @media screen and (max-width:545px) {
-
-    div#div-contactos .entradas-form #div-flex-form {
-        margin: 6px;
-    }
-
-    div#div-contactos .entradas-form {
-        padding: 0px;
-    }
-
-    div#div-contactos #redes-sociales {
-        padding: 0%;
-    }
+  div#div-contact .entry-form #div-flex-form {
+    margin: 6px;
+  }
+  div#div-contact .entry-form {
+    padding: 0px;
+  }
+  div#div-contact #social-net {
+    padding: 0%;
+  }
 }
 
 @media screen and (max-width:450px) {
-
-    div#div-nosotros #cont-nosotros {
-        display: block;
-    }
+  div#div-about-us #cont-about-us {
+    display: block;
+  }
 }
-
